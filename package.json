@@ -1,0 +1,19 @@
+{
+  "name": "520-project-simonelli-agluba-fernandezcortez",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/520-01-F22/section01/projteam10/520-project-simonelli-agluba-fernandezcortez.git"
+  },
+  "author": "Antonio, Mark, Bastian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/520-01-F22/section01/projteam10/520-project-simonelli-agluba-fernandezcortez/issues"
+  },
+  "homepage": "https://gitlab.com/520-01-F22/section01/projteam10/520-project-simonelli-agluba-fernandezcortez#readme"
+}

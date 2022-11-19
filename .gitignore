@@ -1,0 +1,14 @@
+admin/
+resources/
+temp/
+published_content/
+private_content/
+.commitmessage
+.vscode/
+node_modules/
+
+*.tmp
+*.bak
+*.swp
+
+.DS_Store
