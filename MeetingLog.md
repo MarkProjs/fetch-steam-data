@@ -31,3 +31,14 @@
     * reminder: a privacy policy is needed
     * Idea: Ratio of Positive and Negative reviews based on the game's tag (maybe also based on release date)
     * Finishing git setup
+
+# 2022-11-23 Wednesday 4pm, 1 hour, during the lab
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * We will figure out what is next
+## discussion/work
+    * We're trying to figure out schedules for conflicting projects
+    * We're settling on finishing Data Comm and then we can start this project
+    * The teacher told us that we should add interactivity and therefore we are going to add what she recommended:
+    * When we click on a column, the hightest-reated (positively or negatively) game will pop-up with more information on it
