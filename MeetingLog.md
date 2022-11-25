@@ -42,3 +42,11 @@
     * We're settling on finishing Data Comm and then we can start this project
     * The teacher told us that we should add interactivity and therefore we are going to add what she recommended:
     * When we click on a column, the hightest-reated (positively or negatively) game will pop-up with more information on it
+
+# 2022-11-25 Friday 3pm, 10 minutes, during the lab
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * We didn't have any roles yet, so we will assign them now
+## discussion/work
+    * Bastian got assigned getting the data from the API. Mark got assigned the backend (express). Antonio got assigned the frontend (React)
