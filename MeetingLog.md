@@ -50,3 +50,11 @@
     * We didn't have any roles yet, so we will assign them now
 ## discussion/work
     * Bastian got assigned getting the data from the API. Mark got assigned the backend (express). Antonio got assigned the frontend (React)
+
+# 2022-11-30 Wednesday 2:40 pm, 3 hours, during lab time
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * None so far, we just need to start coding
+## work
+    * Coded csv to json controller
