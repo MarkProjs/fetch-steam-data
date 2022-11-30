@@ -58,3 +58,6 @@
     * None so far, we just need to start coding
 ## work
     * Coded csv to json controller
+    * Organized json data
+    * Got total positive and negative reviews for each game
+    * Router started
