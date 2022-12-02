@@ -1,0 +1,334 @@
+[
+    {
+        "id": "10",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 125240,
+        "negativeReviews": 3862
+    },
+    {
+        "id": "20",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 4199,
+        "negativeReviews": 722
+    },
+    {
+        "id": "30",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 2954,
+        "negativeReviews": 414
+    },
+    {
+        "id": "40",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 1302,
+        "negativeReviews": 338
+    },
+    {
+        "id": "50",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 12519,
+        "negativeReviews": 596
+    },
+    {
+        "id": "60",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 2570,
+        "negativeReviews": 637
+    },
+    {
+        "id": "70",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 62299,
+        "negativeReviews": 2171
+    },
+    {
+        "id": "80",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 14194,
+        "negativeReviews": 1510
+    },
+    {
+        "id": "100",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 2092,
+        "negativeReviews": 190
+    },
+    {
+        "id": "130",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 9007,
+        "negativeReviews": 841
+    },
+    {
+        "id": "219",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 1,
+        "negativeReviews": 1
+    },
+    {
+        "id": "220",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 113789,
+        "negativeReviews": 2876
+    },
+    {
+        "id": "240",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 92995,
+        "negativeReviews": 3600
+    },
+    {
+        "id": "280",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 7139,
+        "negativeReviews": 2911
+    },
+    {
+        "id": "300",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 10814,
+        "negativeReviews": 1176
+    },
+    {
+        "id": "320",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 6527,
+        "negativeReviews": 764
+    },
+    {
+        "id": "340",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 7323,
+        "negativeReviews": 943
+    },
+    {
+        "id": "360",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 2076,
+        "negativeReviews": 727
+    },
+    {
+        "id": "380",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 17210,
+        "negativeReviews": 749
+    },
+    {
+        "id": "400",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 95364,
+        "negativeReviews": 1472
+    },
+    {
+        "id": "410",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 0,
+        "negativeReviews": 0
+    },
+    {
+        "id": "420",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 23964,
+        "negativeReviews": 697
+    },
+    {
+        "id": "440",
+        "Genre": [
+            "Action",
+            "Free to Play"
+        ],
+        "positiveReviews": 15096,
+        "negativeReviews": 1448
+    },
+    {
+        "id": "500",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 34709,
+        "negativeReviews": 1407
+    },
+    {
+        "id": "550",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 477861,
+        "negativeReviews": 11972
+    },
+    {
+        "id": "570",
+        "Genre": [
+            "Action",
+            "Free to Play",
+            "Strategy"
+        ],
+        "positiveReviews": 12245,
+        "negativeReviews": 2101
+    },
+    {
+        "id": "620",
+        "Genre": [
+            "Action",
+            "Adventure"
+        ],
+        "positiveReviews": 251503,
+        "negativeReviews": 3075
+    },
+    {
+        "id": "630",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 303,
+        "negativeReviews": 14
+    },
+    {
+        "id": "659",
+        "Genre": [
+            "Action",
+            "Adventure"
+        ],
+        "positiveReviews": 0,
+        "negativeReviews": 0
+    },
+    {
+        "id": "730",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 3101146,
+        "negativeReviews": 455735
+    },
+    {
+        "id": "1002",
+        "Genre": [
+            "Indie"
+        ],
+        "positiveReviews": 29,
+        "negativeReviews": 13
+    },
+    {
+        "id": "1003",
+        "Genre": [
+            "Indie"
+        ],
+        "positiveReviews": 0,
+        "negativeReviews": 0
+    },
+    {
+        "id": "1200",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 1076,
+        "negativeReviews": 191
+    },
+    {
+        "id": "1230",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 92,
+        "negativeReviews": 13
+    },
+    {
+        "id": "1250",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 34413,
+        "negativeReviews": 1380
+    },
+    {
+        "id": "1256",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 39,
+        "negativeReviews": 7
+    },
+    {
+        "id": "1257",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 50,
+        "negativeReviews": 6
+    },
+    {
+        "id": "1280",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 1138,
+        "negativeReviews": 122
+    },
+    {
+        "id": "1300",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 491,
+        "negativeReviews": 63
+    },
+    {
+        "id": "1309",
+        "Genre": [
+            "Action"
+        ],
+        "positiveReviews": 0,
+        "negativeReviews": 0
+    },
+    {"id":"1313","Genre":["Action"],"positiveReviews":186,"negativeReviews":34},{"id":"1500","Genre":["Indie","Strategy"],"positiveReviews":495,"negativeReviews":151},{"id":"1502","Genre":["Indie","Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"1510","Genre":["Indie","Strategy"],"positiveReviews":1410,"negativeReviews":147},{"id":"1520","Genre":["Indie","Strategy"],"positiveReviews":2430,"negativeReviews":376},{"id":"1522","Genre":["Indie","Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"1530","Genre":["Indie"],"positiveReviews":295,"negativeReviews":65},{"id":"1540","Genre":["Indie"],"positiveReviews":0,"negativeReviews":0},{"id":"1600","Genre":["Strategy"],"positiveReviews":226,"negativeReviews":62},{"id":"1610","Genre":["Strategy"],"positiveReviews":171,"negativeReviews":31},{"id":"1620","Genre":["Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"1630","Genre":["Strategy"],"positiveReviews":817,"negativeReviews":138},{"id":"1640","Genre":["Strategy"],"positiveReviews":886,"negativeReviews":198},{"id":"1670","Genre":["Strategy"],"positiveReviews":158,"negativeReviews":91},{"id":"1690","Genre":["Strategy"],"positiveReviews":255,"negativeReviews":105},{"id":"1700","Genre":["RPG"],"positiveReviews":1300,"negativeReviews":194},{"id":"1710","Genre":["RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"1840","Genre":["Animation & Modeling","Video Production"],"positiveReviews":230,"negativeReviews":19},{"id":"1900","Genre":["Strategy"],"positiveReviews":445,"negativeReviews":197},{"id":"1930","Genre":["RPG"],"positiveReviews":1669,"negativeReviews":518},{"id":"2100","Genre":["Action","RPG"],"positiveReviews":5814,"negativeReviews":605},{"id":"2120","Genre":["Action","RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"2130","Genre":["Action","RPG"],"positiveReviews":22,"negativeReviews":3},{"id":"2200","Genre":["Action"],"positiveReviews":2420,"negativeReviews":113},{"id":"2210","Genre":["Action"],"positiveReviews":1702,"negativeReviews":250},{"id":"2270","Genre":["Action"],"positiveReviews":2490,"negativeReviews":171},{"id":"2280","Genre":["Action"],"positiveReviews":11410,"negativeReviews":409},{"id":"2290","Genre":["Action"],"positiveReviews":874,"negativeReviews":152},{"id":"2300","Genre":["Action"],"positiveReviews":5504,"negativeReviews":297},{"id":"2310","Genre":["Action"],"positiveReviews":9218,"negativeReviews":365},{"id":"2320","Genre":["Action"],"positiveReviews":2795,"negativeReviews":271},{"id":"2330","Genre":["Action"],"positiveReviews":125,"negativeReviews":31},{"id":"2340","Genre":["Action"],"positiveReviews":104,"negativeReviews":78},{"id":"2350","Genre":["Action"],"positiveReviews":170,"negativeReviews":36},{"id":"2360","Genre":["Action"],"positiveReviews":454,"negativeReviews":59},{"id":"2370","Genre":["Action"],"positiveReviews":109,"negativeReviews":31},{"id":"2390","Genre":["Action"],"positiveReviews":753,"negativeReviews":48},{"id":"2400","Genre":["Action","Indie","RPG"],"positiveReviews":2128,"negativeReviews":409},{"id":"2420","Genre":["Action","Indie","RPG"],"positiveReviews":254,"negativeReviews":130},{"id":"2450","Genre":["Action"],"positiveReviews":647,"negativeReviews":185},
+    {"id":"2500","Genre":["Action"],"positiveReviews":901,"negativeReviews":207},{"id":"2510","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"2520","Genre":["Casual","Indie"],"positiveReviews":50,"negativeReviews":47},{"id":"2525","Genre":["Casual","Indie"],"positiveReviews":2,"negativeReviews":1},{"id":"2535","Genre":["Casual","Indie"],"positiveReviews":0,"negativeReviews":0},{"id":"2540","Genre":["Casual","Indie"],"positiveReviews":153,"negativeReviews":85},{"id":"2545","Genre":["Casual","Indie"],"positiveReviews":2,"negativeReviews":3},{"id":"2550","Genre":["Casual","Indie"],"positiveReviews":7,"negativeReviews":3},{"id":"2560","Genre":["Casual","Indie"],"positiveReviews":0,"negativeReviews":0},{"id":"2570","Genre":["Indie","RPG"],"positiveReviews":19,"negativeReviews":90},{"id":"2580","Genre":["Indie","RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"2590","Genre":["Action"],"positiveReviews":431,"negativeReviews":291},{"id":"2600","Genre":["Action"],"positiveReviews":9727,"negativeReviews":545},{"id":"2610","Genre":["Action"],"positiveReviews":1216,"negativeReviews":121},{"id":"2620","Genre":["Action"],"positiveReviews":3808,"negativeReviews":210},{"id":"2630","Genre":["Action"],"positiveReviews":5333,"negativeReviews":399},{"id":"2640","Genre":["Action"],"positiveReviews":1125,"negativeReviews":166},{"id":"2700","Genre":["Simulation","Strategy"],"positiveReviews":3555,"negativeReviews":381},{"id":"2710","Genre":["Action"],"positiveReviews":369,"negativeReviews":43},{"id":"2720","Genre":["Action","Indie","Strategy"],"positiveReviews":14,"negativeReviews":1},{"id":"2730","Genre":["Action","Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"2780","Genre":["Action"],"positiveReviews":155,"negativeReviews":69},{"id":"2800","Genre":["Strategy"],"positiveReviews":275,"negativeReviews":58},{"id":"2810","Genre":["Strategy"],"positiveReviews":332,"negativeReviews":129},{"id":"2820","Genre":["Action","Simulation","Strategy"],"positiveReviews":1565,"negativeReviews":282},{"id":"2840","Genre":["Simulation","Strategy"],"positiveReviews":167,"negativeReviews":58},{"id":"2850","Genre":["Simulation","Strategy"],"positiveReviews":56,"negativeReviews":19},{"id":"2870","Genre":["Action","Simulation"],"positiveReviews":2102,"negativeReviews":2980},{"id":"2900","Genre":["Strategy"],"positiveReviews":116,"negativeReviews":35},{"id":"2910","Genre":["Strategy"],"positiveReviews":284,"negativeReviews":48},{"id":"2920","Genre":["Strategy"],"positiveReviews":71,"negativeReviews":23},{"id":"2990","Genre":["Racing"],"positiveReviews":11211,"negativeReviews":467},{"id":"3000","Genre":["Racing"],"positiveReviews":59,"negativeReviews":12},{"id":"3010","Genre":["Racing"],"positiveReviews":266,"negativeReviews":65},{"id":"3020","Genre":["Action"],"positiveReviews":1554,"negativeReviews":344},{"id":"3050","Genre":["Racing"],"positiveReviews":196,"negativeReviews":50},{"id":"3130","Genre":["Strategy"],"positiveReviews":482,"negativeReviews":75},{"id":"3170","Genre":["RPG","Strategy"],"positiveReviews":730,"negativeReviews":68},{"id":"3190","Genre":["RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"3200","Genre":["Action"],"positiveReviews":43,"negativeReviews":4},
+    {"id":"3210","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"3230","Genre":["Strategy"],"positiveReviews":33,"negativeReviews":84},{"id":"3260","Genre":["Adventure","Casual"],"positiveReviews":222,"negativeReviews":164},{"id":"3270","Genre":["Action"],"positiveReviews":495,"negativeReviews":192},{"id":"3280","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"3300","Genre":["Casual"],"positiveReviews":368,"negativeReviews":20},{"id":"3302","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3310","Genre":["Casual"],"positiveReviews":636,"negativeReviews":47},{"id":"3312","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3320","Genre":["Casual"],"positiveReviews":3578,"negativeReviews":124},{"id":"3322","Genre":["Casual"],"positiveReviews":1,"negativeReviews":0},{"id":"3330","Genre":["Casual"],"positiveReviews":2416,"negativeReviews":133},{"id":"3332","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3340","Genre":["Casual"],"positiveReviews":56,"negativeReviews":17},{"id":"3342","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3350","Genre":["Casual"],"positiveReviews":132,"negativeReviews":18},{"id":"3352","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3360","Genre":["Casual"],"positiveReviews":80,"negativeReviews":9},{"id":"3362","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3370","Genre":["Casual"],"positiveReviews":43,"negativeReviews":4},{"id":"3372","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3380","Genre":["Casual"],"positiveReviews":174,"negativeReviews":10},{"id":"3382","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3390","Genre":["Casual"],"positiveReviews":1137,"negativeReviews":29},{"id":"3392","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3400","Genre":["Casual"],"positiveReviews":46,"negativeReviews":5},{"id":"3402","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3410","Genre":["Casual"],"positiveReviews":188,"negativeReviews":42},{"id":"3412","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3420","Genre":["Casual"],"positiveReviews":35,"negativeReviews":6},
+    {"id":"3422","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3430","Genre":["Casual"],"positiveReviews":123,"negativeReviews":4},{"id":"3432","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3440","Genre":["Casual"],"positiveReviews":58,"negativeReviews":2},{"id":"3442","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3450","Genre":["Casual"],"positiveReviews":209,"negativeReviews":43},{"id":"3452","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3460","Genre":["Casual"],"positiveReviews":45,"negativeReviews":3},{"id":"3462","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3470","Genre":["Casual"],"positiveReviews":73,"negativeReviews":4},{"id":"3472","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3480","Genre":["Casual"],"positiveReviews":4064,"negativeReviews":103},{"id":"3482","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3483","Genre":["Casual"],"positiveReviews":2,"negativeReviews":0},{"id":"3490","Genre":["Casual"],"positiveReviews":16,"negativeReviews":3},{"id":"3492","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3500","Genre":["Casual"],"positiveReviews":27,"negativeReviews":7},{"id":"3502","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3510","Genre":["Casual"],"positiveReviews":45,"negativeReviews":10},{"id":"3512","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3520","Genre":["Casual"],"positiveReviews":25,"negativeReviews":7},{"id":"3522","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3530","Genre":["Casual"],"positiveReviews":47,"negativeReviews":11},{"id":"3532","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3540","Genre":["Casual"],"positiveReviews":1104,"negativeReviews":42},{"id":"3560","Genre":["Casual","Strategy"],"positiveReviews":284,"negativeReviews":57},{"id":"3562","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3570","Genre":["Casual"],"positiveReviews":21,"negativeReviews":5},{"id":"3572","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3580","Genre":["Casual"],"positiveReviews":25,"negativeReviews":4},{"id":"3582","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3590","Genre":["Strategy"],"positiveReviews":81834,"negativeReviews":2284},{"id":"3592","Genre":["Strategy"],"positiveReviews":1,"negativeReviews":0},{"id":"3600","Genre":["Casual"],"positiveReviews":74,"negativeReviews":22},{"id":"3602","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3610","Genre":["Casual"],"positiveReviews":26,"negativeReviews":6},{"id":"3612","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3620","Genre":["Action","Casual"],"positiveReviews":1344,"negativeReviews":64},{"id":"3622","Genre":["Action","Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3630","Genre":["Casual"],"positiveReviews":34,"negativeReviews":3},{"id":"3632","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"3700","Genre":["Action"],"positiveReviews":1878,"negativeReviews":545},{"id":"3710","Genre":["Action"],"positiveReviews":740,"negativeReviews":100},{"id":"3720","Genre":["Strategy"],"positiveReviews":2668,"negativeReviews":149},{"id":"3730","Genre":["Action"],"positiveReviews":1785,"negativeReviews":252},{"id":"3800","Genre":["Action"],"positiveReviews":277,"negativeReviews":65},{"id":"3810","Genre":["Action"],"positiveReviews":365,"negativeReviews":97},{"id":"3820","Genre":["Action"],"positiveReviews":254,"negativeReviews":105},{"id":"3830","Genre":["Action"],"positiveReviews":8614,"negativeReviews":338},{"id":"3838","Genre":["Action"],"positiveReviews":7,"negativeReviews":2},
+    {"id":"3839","Genre":["Action"],"positiveReviews":6,"negativeReviews":1},{"id":"3850","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"3910","Genre":["Strategy"],"positiveReviews":3723,"negativeReviews":363},{"id":"3960","Genre":["Strategy"],"positiveReviews":64,"negativeReviews":62},{"id":"3990","Genre":["Strategy"],"positiveReviews":242,"negativeReviews":21},{"id":"4000","Genre":["Indie","Simulation"],"positiveReviews":744411,"negativeReviews":24991},{"id":"4102","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"4240","Genre":["Racing"],"positiveReviews":0,"negativeReviews":0},{"id":"4300","Genre":["Action","Indie"],"positiveReviews":30,"negativeReviews":9},{"id":"4420","Genre":["RPG"],"positiveReviews":68,"negativeReviews":46},{"id":"4470","Genre":["RPG"],"positiveReviews":51,"negativeReviews":18},{"id":"4500","Genre":["Action","RPG"],"positiveReviews":23495,"negativeReviews":1319},{"id":"4530","Genre":["Action","Strategy"],"positiveReviews":111,"negativeReviews":49},{"id":"4540","Genre":["Action","RPG"],"positiveReviews":1275,"negativeReviews":215},{"id":"4720","Genre":["Action"],"positiveReviews":1684,"negativeReviews":228},{"id":"4770","Genre":["Strategy"],"positiveReviews":476,"negativeReviews":168},{"id":"4800","Genre":["Strategy"],"positiveReviews":368,"negativeReviews":44},{"id":"4820","Genre":["Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"4856","Genre":["Strategy"],"positiveReviews":9,"negativeReviews":3},{"id":"4900","Genre":["Casual","Indie"],"positiveReviews":82,"negativeReviews":11},{"id":"4910","Genre":["Casual","Indie"],"positiveReviews":0,"negativeReviews":0},{"id":"6000","Genre":["Action"],"positiveReviews":10932,"negativeReviews":505},{"id":"6020","Genre":["Action"],"positiveReviews":9342,"negativeReviews":378},{"id":"6060","Genre":["Action"],"positiveReviews":39084,"negativeReviews":2464},{"id":"6090","Genre":["Action"],"positiveReviews":192,"negativeReviews":16},{"id":"6130","Genre":["Action","Indie"],"positiveReviews":0,"negativeReviews":0},{"id":"6210","Genre":["Strategy"],"positiveReviews":94,"negativeReviews":29},{"id":"6230","Genre":["Racing"],"positiveReviews":0,"negativeReviews":0},{"id":"6250","Genre":["Action","Strategy"],"positiveReviews":417,"negativeReviews":109},{"id":"6260","Genre":["Action","Strategy"],"positiveReviews":1,"negativeReviews":0},{"id":"6270","Genre":["Racing"],"positiveReviews":62,"negativeReviews":89},{"id":"6300","Genre":["Adventure","RPG"],"positiveReviews":736,"negativeReviews":143},{"id":"6310","Genre":["Action","Adventure","RPG"],"positiveReviews":1381,"negativeReviews":145},{"id":"6320","Genre":["Action","Adventure","RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"6370","Genre":["Action","Free to Play","Massively Multiplayer"],"positiveReviews":7,"negativeReviews":0},{"id":"6400","Genre":["Action","Strategy"],"positiveReviews":174,"negativeReviews":22},{"id":"6410","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"6420","Genre":["Indie","Simulation","Strategy"],"positiveReviews":664,"negativeReviews":117},{"id":"6510","Genre":["Action","Adventure"],"positiveReviews":911,"negativeReviews":244},{"id":"6550","Genre":["Action"],"positiveReviews":1440,"negativeReviews":1003},{"id":"6580","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"6600","Genre":["Casual","Indie"],"positiveReviews":30,"negativeReviews":33},{"id":"6800","Genre":["Action"],"positiveReviews":2388,"negativeReviews":295},{"id":"6810","Genre":["Action"],"positiveReviews":642,"negativeReviews":89},{"id":"6830","Genre":["Action"],"positiveReviews":1724,"negativeReviews":309},{"id":"6850","Genre":["Action"],"positiveReviews":1825,"negativeReviews":356},{"id":"6860","Genre":["Action"],"positiveReviews":8406,"negativeReviews":544},{"id":"6980","Genre":["Action"],"positiveReviews":1536,"negativeReviews":347},{"id":"7010","Genre":["Action"],"positiveReviews":372,"negativeReviews":120},{"id":"7050","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"7200","Genre":["Racing"],"positiveReviews":1706,"negativeReviews":99},
+    {"id":"7220","Genre":["Adventure"],"positiveReviews":128,"negativeReviews":112},{"id":"7230","Genre":["Adventure"],"positiveReviews":0,"negativeReviews":0},{"id":"7260","Genre":["RPG"],"positiveReviews":108,"negativeReviews":70},{"id":"7280","Genre":["RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"7290","Genre":["Adventure","RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"7340","Genre":["Casual","Indie"],"positiveReviews":20,"negativeReviews":7},{"id":"7510","Genre":["Action","Adventure","RPG"],"positiveReviews":578,"negativeReviews":391},{"id":"7520","Genre":["RPG"],"positiveReviews":2097,"negativeReviews":1453},{"id":"7530","Genre":["Strategy"],"positiveReviews":114,"negativeReviews":157},{"id":"7600","Genre":["Strategy"],"positiveReviews":1402,"negativeReviews":589},{"id":"7610","Genre":["Strategy"],"positiveReviews":668,"negativeReviews":188},{"id":"7620","Genre":["Strategy"],"positiveReviews":903,"negativeReviews":117},{"id":"7650","Genre":["Strategy"],"positiveReviews":531,"negativeReviews":44},{"id":"7660","Genre":["Strategy"],"positiveReviews":608,"negativeReviews":71},{"id":"7670","Genre":["Action","RPG"],"positiveReviews":20570,"negativeReviews":1283},{"id":"7710","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"7730","Genre":["Strategy"],"positiveReviews":68,"negativeReviews":53},{"id":"7760","Genre":["Strategy"],"positiveReviews":2512,"negativeReviews":86},{"id":"7770","Genre":["Strategy"],"positiveReviews":138,"negativeReviews":109},{"id":"7830","Genre":["Strategy"],"positiveReviews":2256,"negativeReviews":276},{"id":"7840","Genre":["Racing"],"positiveReviews":55,"negativeReviews":25},{"id":"7860","Genre":["Action"],"positiveReviews":634,"negativeReviews":277},{"id":"7890","Genre":["Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"7940","Genre":["Action"],"positiveReviews":13936,"negativeReviews":1032},{"id":"7970","Genre":["Sports"],"positiveReviews":17,"negativeReviews":43},{"id":"8000","Genre":["Action","Adventure"],"positiveReviews":3819,"negativeReviews":844},{"id":"8030","Genre":["Action","Adventure"],"positiveReviews":0,"negativeReviews":0},{"id":"8080","Genre":["Action"],"positiveReviews":1626,"negativeReviews":817},{"id":"8090","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"8100","Genre":["Action"],"positiveReviews":158,"negativeReviews":151},{"id":"8140","Genre":["Action","Adventure"],"positiveReviews":3365,"negativeReviews":1070},{"id":"8150","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"8170","Genre":["Action","Strategy"],"positiveReviews":1497,"negativeReviews":656},{"id":"8180","Genre":["Action"],"positiveReviews":1,"negativeReviews":0},{"id":"8190","Genre":["Action","Adventure"],"positiveReviews":34811,"negativeReviews":3668},{"id":"8230","Genre":["Action","Adventure"],"positiveReviews":14,"negativeReviews":0},{"id":"8310","Genre":["Adventure"],"positiveReviews":47,"negativeReviews":25},{"id":"8320","Genre":["Adventure"],"positiveReviews":26,"negativeReviews":11},{"id":"8330","Genre":["Casual"],"positiveReviews":57,"negativeReviews":32},{"id":"8340","Genre":["Adventure"],"positiveReviews":259,"negativeReviews":15},{"id":"8350","Genre":["Adventure"],"positiveReviews":25,"negativeReviews":3},{"id":"8360","Genre":["Adventure"],"positiveReviews":17,"negativeReviews":3},{"id":"8370","Genre":["Adventure"],"positiveReviews":13,"negativeReviews":3},{"id":"8380","Genre":["Adventure"],"positiveReviews":14,"negativeReviews":2},{"id":"8400","Genre":["Casual"],"positiveReviews":714,"negativeReviews":82},{"id":"8500","Genre":["Massively Multiplayer","RPG"],"positiveReviews":5774,"negativeReviews":1369},{"id":"8600","Genre":["Racing"],"positiveReviews":954,"negativeReviews":115},{"id":"8640","Genre":["Racing"],"positiveReviews":0,"negativeReviews":0},{"id":"8650","Genre":["Racing"],"positiveReviews":4,"negativeReviews":4},{"id":"8660","Genre":["Racing"],"positiveReviews":45,"negativeReviews":6},{"id":"8690","Genre":["Racing"],"positiveReviews":10,"negativeReviews":3},{"id":"8700","Genre":["Racing"],"positiveReviews":0,"negativeReviews":0},{"id":"8720","Genre":["Racing"],"positiveReviews":0,"negativeReviews":0},{"id":"8760","Genre":["Racing"],"positiveReviews":0,"negativeReviews":0},{"id":"8790","Genre":["Racing","Simulation","Sports"],"positiveReviews":177,"negativeReviews":14},{"id":"8800","Genre":["Strategy"],"positiveReviews":2558,"negativeReviews":87},{"id":"8820","Genre":["Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"8850","Genre":["Action"],"positiveReviews":8669,"negativeReviews":1084},{"id":"8870","Genre":["Action"],"positiveReviews":89923,"negativeReviews":5752},{"id":"8880","Genre":["RPG","Strategy"],"positiveReviews":232,"negativeReviews":151},{"id":"8890","Genre":["RPG","Strategy"],"positiveReviews":178,"negativeReviews":25},{"id":"8900","Genre":["RPG","Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"8910","Genre":["RPG","Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"8930","Genre":["Strategy"],"positiveReviews":110332,"negativeReviews":4500},{"id":"8970","Genre":["Indie"],"positiveReviews":51,"negativeReviews":19},{"id":"8980","Genre":["Action","RPG"],"positiveReviews":16535,"negativeReviews":1167},{"id":"8990","Genre":["Action","RPG"],"positiveReviews":331,"negativeReviews":52},{"id":"9000","Genre":["Action"],"positiveReviews":386,"negativeReviews":72},{"id":"9010","Genre":["Action"],"positiveReviews":5401,"negativeReviews":422},{"id":"9030","Genre":["Action"],"positiveReviews":256,"negativeReviews":26},{"id":"9040","Genre":["Action"],"positiveReviews":353,"negativeReviews":26},{"id":"9050","Genre":["Action"],"positiveReviews":5073,"negativeReviews":596},{"id":"9060","Genre":["Action"],"positiveReviews":304,"negativeReviews":68},{"id":"9070","Genre":["Action"],"positiveReviews":653,"negativeReviews":126},{"id":"9080","Genre":["Action"],"positiveReviews":0,"negativeReviews":1},{"id":"9090","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"9120","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"9130","Genre":["Action"],"positiveReviews":1,"negativeReviews":0},{"id":"9160","Genre":["Action"],"positiveReviews":425,"negativeReviews":131},{"id":"9180","Genre":["Action"],"positiveReviews":1129,"negativeReviews":79},{"id":"9200","Genre":["Action"],"positiveReviews":8061,"negativeReviews":2637},{"id":"9219","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"9300","Genre":["Action","Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"9310","Genre":["Strategy"],"positiveReviews":1139,"negativeReviews":120},{"id":"9320","Genre":["Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"9330","Genre":["Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"9340","Genre":["Action","Strategy"],"positiveReviews":564,"negativeReviews":58},{"id":"9350","Genre":["Strategy"],"positiveReviews":1484,"negativeReviews":198},{"id":"9420","Genre":["Strategy"],"positiveReviews":7214,"negativeReviews":249},{"id":"9440","Genre":["Strategy"],"positiveReviews":0,"negativeReviews":0},{"id":"9450","Genre":["Strategy"],"positiveReviews":9401,"negativeReviews":446},{"id":"9460","Genre":["Action"],"positiveReviews":459,"negativeReviews":244},{"id":"9480","Genre":["Action"],"positiveReviews":7527,"negativeReviews":2284},{"id":"9500","Genre":["Indie"],"positiveReviews":146,"negativeReviews":86},{"id":"9510","Genre":["Indie"],"positiveReviews":0,"negativeReviews":0},{"id":"9710","Genre":["Action"],"positiveReviews":80,"negativeReviews":92},{"id":"9730","Genre":["Simulation"],"positiveReviews":70,"negativeReviews":112},{"id":"9760","Genre":["Action"],"positiveReviews":304,"negativeReviews":70},{"id":"9800","Genre":["Action","Adventure"],"positiveReviews":466,"negativeReviews":159},{"id":"9850","Genre":["Strategy"],"positiveReviews":118,"negativeReviews":58},
+    {"id":"9870","Genre":["Action"],"positiveReviews":1306,"negativeReviews":93},{"id":"9880","Genre":["Free to Play","Massively Multiplayer","RPG"],"positiveReviews":102,"negativeReviews":74},{"id":"9900","Genre":["Free to Play","Massively Multiplayer","RPG"],"positiveReviews":605,"negativeReviews":200},{"id":"9908","Genre":["Free to Play","Massively Multiplayer","RPG"],"positiveReviews":22,"negativeReviews":10},{"id":"9930","Genre":["Racing"],"positiveReviews":3724,"negativeReviews":2221},{"id":"9940","Genre":["Action","Adventure"],"positiveReviews":708,"negativeReviews":148},{"id":"9950","Genre":["Action","Adventure"],"positiveReviews":0,"negativeReviews":0},{"id":"9960","Genre":["Adventure"],"positiveReviews":10,"negativeReviews":12},{"id":"9970","Genre":["Action"],"positiveReviews":5,"negativeReviews":20},{"id":"9980","Genre":["Casual"],"positiveReviews":37,"negativeReviews":18},{"id":"9990","Genre":["Action","Adventure"],"positiveReviews":40,"negativeReviews":50},{"id":"9992","Genre":["Action","Adventure"],"positiveReviews":0,"negativeReviews":0},{"id":"9998","Genre":["Action","Adventure"],"positiveReviews":0,"negativeReviews":0},{"id":"10090","Genre":["Action"],"positiveReviews":33420,"negativeReviews":2876},{"id":"10110","Genre":["Adventure"],"positiveReviews":212,"negativeReviews":39},{"id":"10120","Genre":["Action","Casual"],"positiveReviews":16,"negativeReviews":20},{"id":"10130","Genre":["Action"],"positiveReviews":700,"negativeReviews":183},{"id":"10140","Genre":["Sports"],"positiveReviews":63,"negativeReviews":34},{"id":"10150","Genre":["Action","Adventure"],"positiveReviews":6430,"negativeReviews":1600},{"id":"10180","Genre":["Action"],"positiveReviews":23975,"negativeReviews":1756},{"id":"10190","Genre":["Action"],"positiveReviews":4795,"negativeReviews":479},{"id":"10195","Genre":["Action"],"positiveReviews":83,"negativeReviews":47},{"id":"10196","Genre":["Action"],"positiveReviews":53,"negativeReviews":40},{"id":"10220","Genre":["Action"],"positiveReviews":857,"negativeReviews":1339},{"id":"10230","Genre":["Adventure"],"positiveReviews":35,"negativeReviews":59},{"id":"10240","Genre":["Adventure"],"positiveReviews":15,"negativeReviews":8},{"id":"10250","Genre":["Simulation"],"positiveReviews":16,"negativeReviews":18},{"id":"10260","Genre":["Simulation"],"positiveReviews":10,"negativeReviews":12},{"id":"10270","Genre":["RPG","Strategy"],"positiveReviews":709,"negativeReviews":313},{"id":"10460","Genre":["Action"],"positiveReviews":64,"negativeReviews":49},{"id":"10500","Genre":["Strategy"],"positiveReviews":14107,"negativeReviews":1641},{"id":"10520","Genre":["Sports"],"positiveReviews":0,"negativeReviews":0},{"id":"10530","Genre":["Action","RPG"],"positiveReviews":50,"negativeReviews":43},{"id":"10600","Genre":["Strategy"],"positiveReviews":63,"negativeReviews":6},{"id":"10604","Genre":["Strategy"],"positiveReviews":64,"negativeReviews":14},{"id":"10606","Genre":["Strategy"],"positiveReviews":72,"negativeReviews":36},{"id":"10607","Genre":["Strategy"],"positiveReviews":73,"negativeReviews":25},{"id":"10608","Genre":["Strategy"],"positiveReviews":53,"negativeReviews":6},{"id":"10620","Genre":["Strategy"],"positiveReviews":1,"negativeReviews":0},{"id":"10680","Genre":["Action"],"positiveReviews":10716,"negativeReviews":1136},{"id":"10695","Genre":["Action"],"positiveReviews":48,"negativeReviews":12},{"id":"10697","Genre":["Action"],"positiveReviews":35,"negativeReviews":10},{"id":"11000","Genre":["RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"11020","Genre":["Racing"],"positiveReviews":150,"negativeReviews":24},{"id":"11040","Genre":["Adventure","RPG"],"positiveReviews":282,"negativeReviews":103},{"id":"11050","Genre":["Adventure"],"positiveReviews":126,"negativeReviews":55},{"id":"11080","Genre":["Adventure"],"positiveReviews":0,"negativeReviews":0},{"id":"11090","Genre":["Adventure"],"positiveReviews":0,"negativeReviews":0},{"id":"11130","Genre":["Adventure"],"positiveReviews":22,"negativeReviews":74},{"id":"11140","Genre":["Adventure"],"positiveReviews":345,"negativeReviews":136},{"id":"11150","Genre":["Adventure"],"positiveReviews":237,"negativeReviews":180},{"id":"11180","Genre":["Adventure"],"positiveReviews":116,"negativeReviews":194},{"id":"11190","Genre":["Adventure","RPG"],"positiveReviews":614,"negativeReviews":165},{"id":"11200","Genre":["Action"],"positiveReviews":313,"negativeReviews":205},{"id":"11210","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"11220","Genre":["Action"],"positiveReviews":0,"negativeReviews":0},{"id":"11230","Genre":["Casual","Indie","Racing"],"positiveReviews":223,"negativeReviews":84},{"id":"11240","Genre":["Action","Indie","Strategy"],"positiveReviews":230,"negativeReviews":208},{"id":"11250","Genre":["Simulation","Strategy"],"positiveReviews":26,"negativeReviews":9},{"id":"11260","Genre":["Simulation","Strategy"],"positiveReviews":98,"negativeReviews":75},{"id":"11270","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"11280","Genre":["Action","Casual","Indie"],"positiveReviews":654,"negativeReviews":62},{"id":"11330","Genre":["Casual","Indie"],"positiveReviews":427,"negativeReviews":88},{"id":"11340","Genre":["Action","Indie"],"positiveReviews":388,"negativeReviews":124},{"id":"11350","Genre":["Action","Indie"],"positiveReviews":0,"negativeReviews":0},{"id":"11360","Genre":["Indie"],"positiveReviews":290,"negativeReviews":105},{"id":"11370","Genre":["Adventure"],"positiveReviews":141,"negativeReviews":96},{"id":"11390","Genre":["Action","Racing"],"positiveReviews":674,"negativeReviews":415},{"id":"11450","Genre":["RPG"],"positiveReviews":3749,"negativeReviews":243},{"id":"11470","Genre":["RPG"],"positiveReviews":0,"negativeReviews":0},{"id":"11480","Genre":["Strategy"],"positiveReviews":434,"negativeReviews":79},{"id":"11560","Genre":["Strategy"],"positiveReviews":81,"negativeReviews":41},{"id":"11590","Genre":["Simulation"],"positiveReviews":171,"negativeReviews":188},{"id":"11610","Genre":["Action","Free to Play","Massively Multiplayer","RPG"],"positiveReviews":14,"negativeReviews":15},{"id":"11900","Genre":["Casual"],"positiveReviews":32,"negativeReviews":10},{"id":"11910","Genre":["Casual"],"positiveReviews":0,"negativeReviews":0},{"id":"11920","Genre":["Casual"],"positiveReviews":14,"negativeReviews":3},{"id":"12100","Genre":["Action"],"positiveReviews":8898,"negativeReviews":1452},{"id":"12110","Genre":["Action"],"positiveReviews":20718,"negativeReviews":1727},{"id":"12120","Genre":["Action"],"positiveReviews":61052,"negativeReviews":5597},{"id":"12130","Genre":["Action"],"positiveReviews":1826,"negativeReviews":752},{"id":"12140","Genre":["Action"],"positiveReviews":8057,"negativeReviews":962},{"id":"12150","Genre":["Action"],"positiveReviews":5184,"negativeReviews":309},{"id":"12160","Genre":["Racing"],"positiveReviews":455,"negativeReviews":58},{"id":"12170","Genre":["Action"],"positiveReviews":175,"negativeReviews":45},{"id":"12180","Genre":["Action"],"positiveReviews":153,"negativeReviews":19},{"id":"12200","Genre":["Action","Adventure"],"positiveReviews":17616,"negativeReviews":3250},{"id":"12210","Genre":["Action","Adventure"],"positiveReviews":75546,"negativeReviews":21029},{"id":"12220","Genre":["Action"],"positiveReviews":5503,"negativeReviews":2024},{"id":"12310","Genre":["Adventure","Casual","RPG"],"positiveReviews":64,"negativeReviews":22},{"id":"12320","Genre":["Action","RPG"],"positiveReviews":2557,"negativeReviews":480},{"id":"12330","Genre":["Action"],"positiveReviews":391,"negativeReviews":85},{"id":"12340","Genre":["Adventure"],"positiveReviews":51,"negativeReviews":33},{"id":"12360","Genre":["Racing"],"positiveReviews":3113,"negativeReviews":492},{"id":"12370","Genre":["Strategy"],"positiveReviews":129,"negativeReviews":16},{"id":"12380","Genre":["Strategy"],"positiveReviews":7,"negativeReviews":4},{"id":"12390","Genre":["Action"],"positiveReviews":68,"negativeReviews":61},{"id":"12420","Genre":["Strategy"],"positiveReviews":12,"negativeReviews":47},{"id":"12430","Genre":["Casual"],"positiveReviews":35,"negativeReviews":69},{"id":"12440","Genre":["Adventure"],"positiveReviews":31,"negativeReviews":17},
+]

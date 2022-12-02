@@ -2,10 +2,13 @@ const fetch = require("node-fetch-commonjs")
 const cleanedGenresJSON = require("../data/cleaned_game_genres.json")
 
 //Should get # of positive and negative reviews
-async function jsonFetchReviews(number){
-  jsonArray = []
+async function jsonFetchReviews(stringNumber){
+  const number = parseInt(stringNumber)
+  let jsonArray = []
+  //length is 7333. Next is /400
   //Big loop (change + 1 to + 200 eventually)
-  for(i = number; i < number + 1; i++){
+  for(i = number; i < number + 100; i++){
+    console.log(i)
     //Get id from json data
     let data = cleanedGenresJSON[i]
     //query id with the interface that gets reviews

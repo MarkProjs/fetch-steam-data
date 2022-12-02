@@ -27,6 +27,7 @@ app.get("/api/:number", async (req, res) => {
     console.log("Starting fetch")
     let reviews = await jsonFetch(req.params.number)
     res.json(reviews)
+    console.log("Finished fetch")
   } catch(err) {
     console.error(err)
   }
