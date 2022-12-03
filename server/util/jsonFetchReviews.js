@@ -1,7 +1,7 @@
 const fetch = require("node-fetch-commonjs")
 const cleanedGenresJSON = require("../data/cleaned_game_genres.json")
 
-//Should get # of positive and negative reviews
+//Gets # of positive and negative reviews for a game
 async function jsonFetchReviews(stringNumber){
   const number = parseInt(stringNumber)
   let jsonArray = []
