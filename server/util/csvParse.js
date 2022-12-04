@@ -3,7 +3,7 @@ const fs = require("fs")
 
 //Parses a csv file into a JSON array
 async function csvParse() {
-  const filePath = "./data/game_genres_modified.csv" 
+  const filePath = "./data/nonfinal_data/game_genres_shortened.csv" 
   if(fs.existsSync(filePath)) {
     console.log("file exists")
   } else {

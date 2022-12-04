@@ -1,6 +1,4 @@
-const fs = require("fs/promises")
-const fetch = require("node-fetch-commonjs")
-const reviews = require("../data/reviews/reviews.json")
+const reviews = require("../data/reviews.json")
 
 //Build Genre Array from all Genres
 function buildGenreArray() {
@@ -32,7 +30,7 @@ function findHighestRatedGames() {
   //Build genre array
   let genreArray = buildGenreArray()
   //Initialize the array to hold the game's data
-  let topGamesArray = {topGames: [], ratios: []}
+  let topGamesJSON = {topGames: [], ratios: []}
   //For each genre in the genreArray
   genreArray.forEach(genre => {
     //Percentage ratio related values
@@ -47,7 +45,7 @@ function findHighestRatedGames() {
       if(item.Genre.includes(genre)){
         //Discard game if its already in the "top" viz 
         //(this gives erroneous data, but it won't be repetitive)
-        if(!topGamesArray.topGames.some(arrayItem => arrayItem.id === item.id)){
+        if(!topGamesJSON.topGames.some(arrayItem => arrayItem.id === item.id)){
           //Update the topvalue and topAppId if the positive reviews are higher
           if(topValue < item.positiveReviews){
             topValue = item.positiveReviews
@@ -56,7 +54,7 @@ function findHighestRatedGames() {
         }  
         //Discard game if its already in the "ratio" viz 
         //(this gives erroneous data, but it won't be repetitive)
-        if(!topGamesArray.ratios.some(arrayItem => arrayItem.id === item.id)){
+        if(!topGamesJSON.ratios.some(arrayItem => arrayItem.id === item.id)){
           //Calculate ratio
           let gameRatio = item.positiveReviews / (item.positiveReviews + item.negativeReviews)
             * 100
@@ -78,11 +76,11 @@ function findHighestRatedGames() {
         }
       }
     })
-    topGamesArray.topGames.push({Genre: genre, id: topAppId, positiveReviews: topValue})
-    topGamesArray.ratios.push({Genre: genre, id: ratioAppId, percentage: ratio,
+    topGamesJSON.topGames.push({Genre: genre, id: topAppId, positiveReviews: topValue})
+    topGamesJSON.ratios.push({Genre: genre, id: ratioAppId, percentage: ratio,
       positiveReviews: ratioPositiveReviews})
   })
-  return topGamesArray
+  return topGamesJSON
 }
 
 //Find Lowest rated games per genre and games with the highest negative/positive reviews ratio
@@ -90,7 +88,7 @@ function findLowestRatedGames() {
   //Build genre array
   let genreArray = buildGenreArray()
   //Initialize the array to hold the game's data
-  let lowGamesArray = {lowGames: [], ratios: []}
+  let lowGamesJSON = {lowGames: [], ratios: []}
   //For each genre in the genreArray
   genreArray.forEach(genre => {
     //Percentage ratio related values
@@ -105,7 +103,7 @@ function findLowestRatedGames() {
       if(item.Genre.includes(genre)){
         //Discard game if its already in the "low" viz 
         //(this gives erroneous data, but it won't be repetitive)
-        if(!lowGamesArray.lowGames.some(arrayItem => arrayItem.id === item.id)){
+        if(!lowGamesJSON.lowGames.some(arrayItem => arrayItem.id === item.id)){
         //Update the topvalue and topAppId if the positive reviews are higher
           if(lowValue < item.negativeReviews){
             lowValue = item.negativeReviews
@@ -114,7 +112,7 @@ function findLowestRatedGames() {
         }
         //Discard game if its already in the "ratio" viz 
         //(this gives erroneous data, but it won't be repetitive)
-        if(!lowGamesArray.ratios.some(arrayItem => arrayItem.id === item.id)){
+        if(!lowGamesJSON.ratios.some(arrayItem => arrayItem.id === item.id)){
         //Calculate ratio
           let gameRatio = item.negativeReviews / (item.positiveReviews + item.negativeReviews)
         * 100
@@ -136,16 +134,11 @@ function findLowestRatedGames() {
         }
       }
     })
-    lowGamesArray.lowGames.push({Genre: genre, id: lowAppId, negativeReviews: lowValue})
-    lowGamesArray.ratios.push({Genre: genre, id: ratioAppId, percentage: ratio,
+    lowGamesJSON.lowGames.push({Genre: genre, id: lowAppId, negativeReviews: lowValue})
+    lowGamesJSON.ratios.push({Genre: genre, id: ratioAppId, percentage: ratio,
       negativeReviews: ratioNegativeReviews})
   })
-  return lowGamesArray
-}
-
-//Fetch game details and put them in JSON format
-function jsonFetchGameDetails(gamesArray) {
-
+  return lowGamesJSON
 }
 
 module.exports = {findHighestRatedGames, findLowestRatedGames}

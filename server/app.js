@@ -1,7 +1,7 @@
 const express = require("express")
 const jsonFetchReviews = require("./util/jsonFetchReviews")
 const csvParse = require("./util/csvParse.js")
-const appIdJSON = require("./data/game_genres_modified.json")
+const unSquashedGamesJSON = require("./data/nonfinal_data/game_genres_shortened.json")
 const getGames = require("./util/getTopAndLowGames")
 
 const app = express()
@@ -17,7 +17,7 @@ app.get("/csv", async (req, res) => {
 
 //Transform the unorganized json to clean data
 app.get("/org", (req, res) => {
-  const cleanJSON = csvParse.organizeJSONArray(appIdJSON) 
+  const cleanJSON = csvParse.organizeJSONArray(unSquashedGamesJSON) 
   res.json(cleanJSON)
 })
 
