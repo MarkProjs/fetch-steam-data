@@ -48,12 +48,12 @@ app.get("/lowest", (req, res) => {
 })
 
 app.get("/details-positive", async (req, res) => {
-  let detailedGamesPositive = await getDetailedGames(topPositiveGames) 
+  let detailedGamesPositive = await getDetailedGames.jsonFetchPositiveGameDetails(topPositiveGames) 
   res.json(detailedGamesPositive)
 })
 
 app.get("/details-negative", async (req, res) => {
-  let detailedGamesNegative = await getDetailedGames(topNegativeGames)
+  let detailedGamesNegative = await getDetailedGames.jsonFetchNegativeGameDetails(topNegativeGames)
   res.json(detailedGamesNegative)
 })
 

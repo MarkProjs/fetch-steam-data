@@ -1,0 +1,404 @@
+{
+    "topGames": [
+        {
+            "Genre": "Action",
+            "id": "730",
+            "positiveReviews": 3101146,
+            "name": "Counter-Strike: Global Offensive",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812",
+            "description": "Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago. CS: GO features new maps, characters, weapons, and game modes, and delivers updated versions of the classic CS content (de_dust2, etc.).",
+            "date": "21 Aug, 2012"
+        },
+        {
+            "Genre": "Free to Play",
+            "id": "440",
+            "positiveReviews": 15096,
+            "name": "Team Fortress 2",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/440/header.jpg?t=1665425286",
+            "description": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
+            "date": "10 Oct, 2007"
+        },
+        {
+            "Genre": "Strategy",
+            "id": "255710",
+            "positiveReviews": 147304,
+            "name": "Cities: Skylines",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/255710/header.jpg?t=1668007889",
+            "description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
+            "date": "10 Mar, 2015"
+        },
+        {
+            "Genre": "Adventure",
+            "id": "271590",
+            "positiveReviews": 1126362,
+            "name": "Grand Theft Auto V",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1667343890",
+            "description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
+            "date": "13 Apr, 2015"
+        },
+        {
+            "Genre": "Indie",
+            "id": "105600",
+            "positiveReviews": 818189,
+            "name": "Terraria",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg?t=1666290860",
+            "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+            "date": "16 May, 2011"
+        },
+        {
+            "Genre": "RPG",
+            "id": "252490",
+            "positiveReviews": 606572,
+            "name": "Rust",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1669127647",
+            "description": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.",
+            "date": "8 Feb, 2018"
+        },
+        {
+            "Genre": "Animation & Modeling",
+            "id": "274920",
+            "positiveReviews": 5804,
+            "name": "FaceRig",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/274920/header.jpg?t=1641406847",
+            "description": "FaceRig was a program that aimd to enable anyone with a webcam to digitally embody awesome characters. The output could be recorded as a movie or streamed to Skype, Twitch, Hangouts or any service that traditionally uses a webcam in real time.",
+            "date": "7 Jul, 2015"
+        },
+        {
+            "Genre": "Video Production",
+            "id": "228180",
+            "positiveReviews": 4722,
+            "name": "Action! - Gameplay Recording and Streaming",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/228180/header.jpg?t=1594129556",
+            "description": "With Action! you can record and live stream your HD/4K/HDR10/8K gameplay, display game's fps, add webcams, live audio commentary, add streaming overlays such as chatbox, alert box, monitor the status of your recording and streaming, benchmark your computer and more!",
+            "date": "8 May, 2014"
+        },
+        {
+            "Genre": "Casual",
+            "id": "211820",
+            "positiveReviews": 73793,
+            "name": "Starbound",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/211820/header.jpg?t=1661178495",
+            "description": "You’ve fled your home, only to find yourself lost in space with a damaged ship. Your only option is to beam down to the planet below, repair your ship and set off to explore the universe...",
+            "date": "22 Jul, 2016"
+        },
+        {
+            "Genre": "Simulation",
+            "id": "4000",
+            "positiveReviews": 744411,
+            "name": "Garry's Mod",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/4000/header.jpg?t=1663621793",
+            "description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
+            "date": "29 Nov, 2006"
+        },
+        {
+            "Genre": "Racing",
+            "id": "252950",
+            "positiveReviews": 372441,
+            "name": "Rocket League®",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg?t=1666994460",
+            "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
+            "date": "6 Jul, 2015"
+        },
+        {
+            "Genre": "Massively Multiplayer",
+            "id": "221100",
+            "positiveReviews": 199121,
+            "name": "DayZ",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1667310902",
+            "description": "How long can you survive a post-apocalyptic world? A land overrun with an infected &quot;zombie&quot; population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.",
+            "date": "13 Dec, 2018"
+        },
+        {
+            "Genre": "Sports",
+            "id": "244210",
+            "positiveReviews": 56459,
+            "name": "Assetto Corsa",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/244210/header.jpg?t=1669152181",
+            "description": "Assetto Corsa v1.16 introduces the new &quot;Laguna Seca&quot; laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
+            "date": "19 Dec, 2014"
+        },
+        {
+            "Genre": "Early Access",
+            "id": "242760",
+            "positiveReviews": 345335,
+            "name": "The Forest",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1666811027",
+            "description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
+            "date": "30 Apr, 2018"
+        },
+        {
+            "Genre": "Photo Editing",
+            "id": "233680",
+            "positiveReviews": 355,
+            "name": "Black Ink",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/233680/header.jpg?t=1668683004",
+            "description": "Black Ink is a new, non-realistic GPU based painting application that, instead of imitating traditional tools, brings new inspirations to every artist.Forget about pen and paper or watercolor and discover a new, generative and truly computer based way to create.",
+            "date": "8 Feb, 2016"
+        },
+        {
+            "Genre": "Utilities",
+            "id": "223850",
+            "positiveReviews": 9647,
+            "name": "3DMark",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/223850/header.jpg?t=1665597598",
+            "description": "3DMark is for gamers, overclockers and system builders who want to get more out of their hardware. With its wide range of benchmark tests, 3DMark has everything you need to test your PC's performance.",
+            "date": ""
+        },
+        {
+            "Genre": "Design & Illustration",
+            "id": "220700",
+            "positiveReviews": 2673,
+            "name": "RPG Maker VX Ace",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/220700/header.jpg?t=1664523829",
+            "description": "RPG Maker VX Ace improves on every aspect of creating your very own epic adventure. An extremely powerful editor, Ace supports multiple tilesets, offers full control over autoshadow and has a very flexible features system.",
+            "date": "10 Dec, 2012"
+        },
+        {
+            "Genre": "Education",
+            "id": "266310",
+            "positiveReviews": 855,
+            "name": "GameGuru Classic",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/266310/header.jpg?t=1662644869",
+            "description": "GameGuru Classic is a non-technical and fun game-maker. It allows you to build your own game world, using creative and enjoyable tools. Populate your game by placing down characters, weapons and other game items, then press one button to build your game, ready to play and share.",
+            "date": "19 May, 2015"
+        },
+        {
+            "Genre": "Software Training",
+            "id": "234820",
+            "positiveReviews": 243,
+            "name": "Driver Fusion - The Best Driver & Device Solution",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/234820/header.jpg?t=1661414560",
+            "description": "The best solution for your PC to update, backup, clean, and monitor your drivers &amp; devices. Keep your computer reliable and up to date by fixing driver updates, disconnected devices, and unused drivers. Check if your devices and drivers are working correctly and troubleshoot their problems.",
+            "date": "6 May, 2013"
+        },
+        {
+            "Genre": "Web Publishing",
+            "id": "248170",
+            "positiveReviews": 795,
+            "name": "Clickteam Fusion 2.5",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/248170/header.jpg?t=1668809964",
+            "description": "Game and software creation has never been easier or quicker than with Clickteam Fusion 2.5! Discover the tool used by so many multimedia professionals, game creators, and creative people from all walks of life.",
+            "date": "5 Dec, 2013"
+        },
+        {
+            "Genre": "Audio Production",
+            "id": "269470",
+            "positiveReviews": 303,
+            "name": "MorphVOX Pro 4 - Voice Changer (Old)",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/269470/header.jpg?t=1620058094",
+            "description": "MorphVOX Pro will change your voice online and in-game. Take your voice-changing to a new level with superior voice-learning technology, background cancellation, and sound quality.",
+            "date": "13 Feb, 2014"
+        },
+        {
+            "Genre": "Accounting",
+            "id": "227320",
+            "positiveReviews": 1164,
+            "name": "You Need a Budget 4",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/227320/header.jpg?t=1484672273",
+            "description": "With a cult following the world round, You Need A Budget (YNAB), helps you take total control of your money. The results are life-changing and include breaking the paycheck-to-paycheck cycle, paying down debt, and saving more money faster – not to mention a good night’s sleep.",
+            "date": ""
+        }
+    ],
+    "ratios": [
+        {
+            "Genre": "Action",
+            "id": "292050",
+            "percentage": 100,
+            "positiveReviews": 43,
+            "name": "Valkyrie Hat (or \"Buy Us Coffee\") DLC for Secrets of Grindea",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/292050/header.jpg?t=1447361128",
+            "description": "You get a totally sweet Valkyrie Hat for Secrets of Grindea, and we get a few bucks to get some well needed coffee for those long nights of coding and pixel artistry!",
+            "date": "13 Jul, 2015"
+        },
+        {
+            "Genre": "Free to Play",
+            "id": "270370",
+            "percentage": 100,
+            "positiveReviews": 39,
+            "name": "Lambda Wars",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/270370/header.jpg?t=1615910653",
+            "description": "Lambda Wars is a free standalone multiplayer Source Engine modification set in the Half-Life 2 universe that brings the war between mankind and their brutal Combine overlords to a traditional real-time strategy (RTS) setting.",
+            "date": "5 Dec, 2014"
+        },
+        {
+            "Genre": "Strategy",
+            "id": "275830",
+            "percentage": 100,
+            "positiveReviews": 37,
+            "name": "7 Wonders: Magical Mystery Tour",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/275830/header.jpg?t=1447360236",
+            "description": "In an all-new 7 Wonders, you’ll take a fantastic journey to some of the most enchanting sites ever dreamed of. With a team of master builders, you’ll match colorful runes to collect the building blocks needed for Camelot, El Dorado, Atlantis, Shangri-La, and many others.",
+            "date": "18 Feb, 2014"
+        },
+        {
+            "Genre": "Adventure",
+            "id": "264400",
+            "percentage": 100,
+            "positiveReviews": 29,
+            "name": "Jacob Jones and the Bigfoot Mystery : Episode 1",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/264400/header.jpg?t=1447359442",
+            "description": "Join Camp Eagle Feathers’ newest ‘Brave’, Jacob Jones, on an amazing adventure to uncover just what is going on at Camp Eagle Feather.",
+            "date": "15 Sep, 2014"
+        },
+        {
+            "Genre": "Indie",
+            "id": "279840",
+            "percentage": 100,
+            "positiveReviews": 35
+        },
+        {
+            "Genre": "RPG",
+            "id": "201000",
+            "percentage": 100,
+            "positiveReviews": 27,
+            "name": "Geneforge 4: Rebellion",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/201000/header.jpg?t=1564012233",
+            "description": "Geneforge 4: Rebellion is an Indie fantasy role-playing adventure, the fourth chapter of the Geneforge Saga. Once again, return to the world of the Shapers, where you will explore a vast world, choose what side you will fight for, and create and mold your own army of strange, powerful monsters.",
+            "date": "1 Nov, 2006"
+        },
+        {
+            "Genre": "Animation & Modeling",
+            "id": "283551",
+            "percentage": 100,
+            "positiveReviews": 8,
+            "name": "ComiPo! Swim Wear",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/283551/header.jpg?t=1657615324",
+            "description": "What's more fun than a great day at the beach? Making a fun comic about your seaside adventures!ComiPo! Swimwear collection is filled with bits and pieces you'll need to create the perfect beach scene. A large variety of swimsuits ensures that your manga characters will have the swimsuit look that suits their personality.",
+            "date": "14 Mar, 2014"
+        },
+        {
+            "Genre": "Video Production",
+            "id": "1840",
+            "percentage": 92.3694779116466,
+            "positiveReviews": 230,
+            "name": "Source Filmmaker",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/1840/header.jpg?t=1447356104",
+            "description": "The Source Filmmaker (SFM) is the movie-making tool built and used by us here at Valve to make movies inside the Source game engine. Because the SFM uses the same assets as the game, anything that exists in the game can be used in the movie, and vice versa.",
+            "date": "10 Jul, 2012"
+        },
+        {
+            "Genre": "Casual",
+            "id": "50910",
+            "percentage": 100,
+            "positiveReviews": 28,
+            "name": "Professor Fizzwizzle and the Molten Mystery",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/50910/header.jpg?t=1447352875",
+            "description": "While on a well deserved vacation, Professor Fizzwizzle's investigation of a strange volcano has landed him in a Molten Mystery! Now it's up to you to master exciting new gadgets, outwit the Bat-Bots, and vanquish a truly cunning villain! Can the professor count on you to help?",
+            "date": "21 Apr, 2010"
+        },
+        {
+            "Genre": "Simulation",
+            "id": "277745",
+            "percentage": 100,
+            "positiveReviews": 34,
+            "name": "Train Simulator: GWR Class 14XX Loco Add-On",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/277745/header.jpg?t=1519830202",
+            "description": "One of the Great Western Railway’s most iconic tank engines, the Class 14XX, comes to Train Simulator complete with GWR autocoach.Based on the ageing 517 Class, the first of the diminutive tank engines entered service in 1932 as part of the 48XX Class and designed for running autotrains when coupled to autocoaches on branch lines of the...",
+            "date": "9 Oct, 2014"
+        },
+        {
+            "Genre": "Racing",
+            "id": "91104",
+            "percentage": 100,
+            "positiveReviews": 11,
+            "name": "SkyDrift: Extreme Fighters Premium Airplane Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/91104/header.jpg?t=1534418554",
+            "description": "Experience the next level of speed and power. The three most powerful and deadliest planes of SkyDrift are ready for take off. You can swoop with the indomitable bird of prey that fits your style or the actual event: Vanguard Sparrow X1 Triwing Vintage All three planes are immediately available for every single and multiplayer challenge...",
+            "date": "28 Nov, 2011"
+        },
+        {
+            "Genre": "Massively Multiplayer",
+            "id": "258803",
+            "percentage": 100,
+            "positiveReviews": 8,
+            "name": "The Lord of the Rings Online™: Helm’s Deep™ Base Edition",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/258803/header.jpg?t=1629827588",
+            "description": "Helm's Deep™ Base Edition includes:Enforcer of Helm: An exclusive in-game Rohirrim title1,000 LOTRO Points for use in the LOTRO StoreHauberk of the Hammerhand: An exclusive Rohirrim cosmetic chest pieceKey Features:FIGHT FOR ROHAN'S SURVIVAL: Unearth the depth of Gríma Wormtongue's treachery, unravel a mystery weaved through the war-torn ",
+            "date": "20 Nov, 2013"
+        },
+        {
+            "Genre": "Sports",
+            "id": "242280",
+            "percentage": 100,
+            "positiveReviews": 6
+        },
+        {
+            "Genre": "Early Access",
+            "id": "282960",
+            "percentage": 100,
+            "positiveReviews": 2,
+            "name": "The Sands Whisper Your Name",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/282960/header.jpg?t=1579659864",
+            "description": "Under Development",
+            "date": "27 Nov, 2014"
+        },
+        {
+            "Genre": "Photo Editing",
+            "id": "233680",
+            "percentage": 87.22358722358723,
+            "positiveReviews": 355,
+            "name": "Black Ink",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/233680/header.jpg?t=1668683004",
+            "description": "Black Ink is a new, non-realistic GPU based painting application that, instead of imitating traditional tools, brings new inspirations to every artist.Forget about pen and paper or watercolor and discover a new, generative and truly computer based way to create.",
+            "date": "8 Feb, 2016"
+        },
+        {
+            "Genre": "Utilities",
+            "id": "270941",
+            "percentage": 100,
+            "positiveReviews": 4,
+            "name": "Axis Game Factory's AGFPRO Fantasy Side-Scroller Player",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/270941/header.jpg?t=1447359830",
+            "description": "AGFPRO Fantasy and Side-Scroller PlayerAGFPRO’s Fantasy Side Scroller Player is a new DLC for Axis Game Factory’s AGFPRO and PREMIUM that allows users the ability to build their own 3D games from a retro side-scroller perspective.",
+            "date": "5 May, 2014"
+        },
+        {
+            "Genre": "Design & Illustration",
+            "id": "229758",
+            "percentage": 100,
+            "positiveReviews": 6
+        },
+        {
+            "Genre": "Education",
+            "id": "217430",
+            "percentage": 100,
+            "positiveReviews": 1
+        },
+        {
+            "Genre": "Software Training",
+            "id": "214850",
+            "percentage": 90.71428571428571,
+            "positiveReviews": 127
+        },
+        {
+            "Genre": "Web Publishing",
+            "id": "271964",
+            "percentage": 100,
+            "positiveReviews": 6,
+            "name": "RPG Maker VX Ace - Rural Farm Tiles Resource Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/271964/header.jpg?t=1668474015",
+            "description": "Whether you want to create a farming sim, or focus on town life—it's all possible with the Rural Farm Tiles resource pack!",
+            "date": "28 Mar, 2014"
+        },
+        {
+            "Genre": "Audio Production",
+            "id": "293094",
+            "percentage": 100,
+            "positiveReviews": 3,
+            "name": "Z3TA+ 2 - DSF Xtreme Synth Bass Expansion Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/293094/header.jpg?t=1511593646",
+            "description": "Digital Sound Factory Z3TA+2 Xtreme Synth Bass finds the bottom and delivers a great set of extremely unique bass sounds. Xtreme Basses are shaped for harmonic adventure, Power Basses explode with punch, and Mello Basses are primed with smoothness.",
+            "date": "17 Jun, 2014"
+        },
+        {
+            "Genre": "Accounting",
+            "id": "227320",
+            "percentage": 92.08860759493672,
+            "positiveReviews": 1164,
+            "name": "You Need a Budget 4",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/227320/header.jpg?t=1484672273",
+            "description": "With a cult following the world round, You Need A Budget (YNAB), helps you take total control of your money. The results are life-changing and include breaking the paycheck-to-paycheck cycle, paying down debt, and saving more money faster – not to mention a good night’s sleep.",
+            "date": ""
+        }
+    ]
+}
