@@ -2,8 +2,10 @@ require("dotenv").config()
 const dbUrl = process.env.ATLAS_URI
 const { MongoClient } = require("mongodb")
 
-class DB {
+let dbInstance
 
+class DB {
+  //Singleton
   constructor(){
     if(!dbInstance){
       dbInstance = this
@@ -22,6 +24,7 @@ class DB {
     dbInstance.db = dbInstance.client.db("reviews")
     console.log("Successfully connected to MongoDB database: reviews")
     dbInstance.collection = await dbInstance.db.collection("totalReviews")
+    console.log(`Collection: ${dbInstance.collection}`)
   }
 
   async close(){
@@ -34,8 +37,6 @@ class DB {
   }
 }
 
-let dbInstance = new DB()
-//Impedes the object's children from changing
-Object.freeze(dbInstance)
+let instance = new DB()
 
-module.exports = dbInstance
+module.exports = instance

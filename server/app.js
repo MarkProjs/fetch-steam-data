@@ -6,11 +6,10 @@ const getGames = require("./util/getTopAndLowGames")
 const topPositiveGames = require("./data/nonfinal_data/positiveReviews.json")
 const topNegativeGames = require("./data/nonfinal_data/negativeReviews.json")
 const getDetailedGames = require("./util/jsonFetchGameDetails")
+const insertInitialData = require("./util/seed")
 
 const app = express()
-const port = 3001
 
-app.use(express.static("public"))
 //Utility paths
 //get the csv file data into a json Object
 app.get("/csv", async (req, res) => {
@@ -37,31 +36,39 @@ app.get("/api/:number", async (req, res) => {
   }
 })
 
+//Gets highest rated games and games with highest ratio of positive reviews/negative reviews
 app.get("/highest", (req, res) => {
   let highestRatedGames = getGames.findHighestRatedGames()
   res.json(highestRatedGames)
 })
 
+//Gets lowest rated games and games with highest ratio of negative reviews/positive reviews
 app.get("/lowest", (req, res) => {
   let lowestRatedGames = getGames.findLowestRatedGames()
   res.json(lowestRatedGames)
 })
 
+//Gets details of highest rated games
 app.get("/details-positive", async (req, res) => {
   let detailedGamesPositive = await getDetailedGames.jsonFetchPositiveGameDetails(topPositiveGames) 
   res.json(detailedGamesPositive)
 })
 
+//Gets details of lowest rated games
 app.get("/details-negative", async (req, res) => {
   let detailedGamesNegative = await getDetailedGames.jsonFetchNegativeGameDetails(topNegativeGames)
   res.json(detailedGamesNegative)
 })
 
+app.get("/initDB", async (req, res) => {
+  await insertInitialData()
+})
+
 //Non-Utility Paths
+app.use(express.static("public"))
+
 app.use((req, res) => {
   res.status(404).send("404 lol")
 })
 
-app.listen(port, () => {
-  console.log("Listening to port 3001")
-})
+module.exports = app

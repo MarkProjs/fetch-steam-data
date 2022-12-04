@@ -1,0 +1,17 @@
+const app = require("../app")
+const DB = require("../db/db")
+const port = 3000;
+
+(async () => {
+  try{
+    const db = DB
+    await db.connect("reviews", "totalReviews")
+  } catch(err) {
+    console.error(err)
+    process.exit()
+  }
+  app.listen(port, () => {
+    console.log(`Listening to port ${port}`)
+  })
+})()
+
