@@ -26,6 +26,10 @@ function buildGenreArray() {
 
 //Find Highest rated games per genre and games with 
 //the highest positive/negative reviews percentage ratio
+//Note: some games have been removed from the reviews.json as /appdetails couldn't
+//get additionnal data on them. Those games are (Positive): 279840, 242280, 229758,
+//217430, 214850, 251040, 217370
+//Negative: 271800, 251790, 297390, 217410, 253830
 function findHighestRatedGames() {
   //Build genre array
   let genreArray = buildGenreArray()

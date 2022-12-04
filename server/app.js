@@ -18,7 +18,7 @@ app.get("/csv", async (req, res) => {
 })
 
 //Transform the unorganized json to clean data
-app.get("/org", (req, res) => {
+app.get("/organize", (req, res) => {
   const cleanJSON = csvParse.organizeJSONArray(unSquashedGamesJSON) 
   res.json(cleanJSON)
 })
@@ -37,29 +37,30 @@ app.get("/api/:number", async (req, res) => {
 })
 
 //Gets highest rated games and games with highest ratio of positive reviews/negative reviews
-app.get("/highest", (req, res) => {
+app.get("/positive", (req, res) => {
   let highestRatedGames = getGames.findHighestRatedGames()
   res.json(highestRatedGames)
 })
 
 //Gets lowest rated games and games with highest ratio of negative reviews/positive reviews
-app.get("/lowest", (req, res) => {
+app.get("/negative", (req, res) => {
   let lowestRatedGames = getGames.findLowestRatedGames()
   res.json(lowestRatedGames)
 })
 
 //Gets details of highest rated games
-app.get("/details-positive", async (req, res) => {
+app.get("/positive-details", async (req, res) => {
   let detailedGamesPositive = await getDetailedGames.jsonFetchPositiveGameDetails(topPositiveGames) 
   res.json(detailedGamesPositive)
 })
 
 //Gets details of lowest rated games
-app.get("/details-negative", async (req, res) => {
+app.get("/negative-details", async (req, res) => {
   let detailedGamesNegative = await getDetailedGames.jsonFetchNegativeGameDetails(topNegativeGames)
   res.json(detailedGamesNegative)
 })
 
+//Populates the DB with the total review data
 app.get("/initDB", async (req, res) => {
   await insertInitialData()
 })

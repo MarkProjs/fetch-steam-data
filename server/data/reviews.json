@@ -27403,19 +27403,6 @@
         "negativeReviews": 103
     },
     {
-        "id": "214850",
-        "Genre": [
-            "Animation & Modeling",
-            "Design & Illustration",
-            "Education",
-            "Software Training",
-            "Utilities",
-            "Web Publishing"
-        ],
-        "positiveReviews": 127,
-        "negativeReviews": 13
-    },
-    {
         "id": "214870",
         "Genre": [
             "Action"
@@ -29019,18 +29006,6 @@
         "negativeReviews": 0
     },
     {
-        "id": "217370",
-        "Genre": [
-            "Design & Illustration",
-            "Education",
-            "Software Training",
-            "Utilities",
-            "Web Publishing"
-        ],
-        "positiveReviews": 37,
-        "negativeReviews": 5
-    },
-    {
         "id": "217390",
         "Genre": [
             "Design & Illustration",
@@ -29041,30 +29016,6 @@
         ],
         "positiveReviews": 1,
         "negativeReviews": 1
-    },
-    {
-        "id": "217410",
-        "Genre": [
-            "Design & Illustration",
-            "Education",
-            "Software Training",
-            "Utilities",
-            "Web Publishing"
-        ],
-        "positiveReviews": 2,
-        "negativeReviews": 3
-    },
-    {
-        "id": "217430",
-        "Genre": [
-            "Design & Illustration",
-            "Education",
-            "Software Training",
-            "Utilities",
-            "Web Publishing"
-        ],
-        "positiveReviews": 1,
-        "negativeReviews": 0
     },
     {
         "id": "217470",
@@ -34749,15 +34700,6 @@
         "negativeReviews": 1
     },
     {
-        "id": "229758",
-        "Genre": [
-            "Design & Illustration",
-            "Web Publishing"
-        ],
-        "positiveReviews": 6,
-        "negativeReviews": 0
-    },
-    {
         "id": "229790",
         "Genre": [
             "RPG",
@@ -38675,16 +38617,6 @@
         "negativeReviews": 0
     },
     {
-        "id": "242280",
-        "Genre": [
-            "Racing",
-            "Simulation",
-            "Sports"
-        ],
-        "positiveReviews": 6,
-        "negativeReviews": 0
-    },
-    {
         "id": "242290",
         "Genre": [
             "Racing",
@@ -41859,15 +41791,6 @@
         "negativeReviews": 21
     },
     {
-        "id": "251040",
-        "Genre": [
-            "Action",
-            "RPG"
-        ],
-        "positiveReviews": 15,
-        "negativeReviews": 0
-    },
-    {
         "id": "251060",
         "Genre": [
             "Strategy"
@@ -42112,19 +42035,6 @@
         ],
         "positiveReviews": 519,
         "negativeReviews": 57
-    },
-    {
-        "id": "251790",
-        "Genre": [
-            "Action",
-            "Early Access",
-            "Indie",
-            "RPG",
-            "Sports",
-            "Strategy"
-        ],
-        "positiveReviews": 0,
-        "negativeReviews": 4
     },
     {
         "id": "251810",
@@ -42888,17 +42798,6 @@
         ],
         "positiveReviews": 158,
         "negativeReviews": 35
-    },
-    {
-        "id": "253830",
-        "Genre": [
-            "Action",
-            "Early Access",
-            "Free to Play",
-            "Indie"
-        ],
-        "positiveReviews": 0,
-        "negativeReviews": 1
     },
     {
         "id": "253831",
@@ -52046,18 +51945,6 @@
         "negativeReviews": 97
     },
     {
-        "id": "271800",
-        "Genre": [
-            "Action",
-            "Adventure",
-            "Free to Play",
-            "Massively Multiplayer",
-            "RPG"
-        ],
-        "positiveReviews": 0,
-        "negativeReviews": 2
-    },
-    {
         "id": "271801",
         "Genre": [
             "Action",
@@ -55056,16 +54943,6 @@
             "Simulation"
         ],
         "positiveReviews": 2,
-        "negativeReviews": 0
-    },
-    {
-        "id": "279840",
-        "Genre": [
-            "Action",
-            "Free to Play",
-            "Indie"
-        ],
-        "positiveReviews": 35,
         "negativeReviews": 0
     },
     {
@@ -64109,18 +63986,6 @@
         ],
         "positiveReviews": 59,
         "negativeReviews": 8
-    },
-    {
-        "id": "297390",
-        "Genre": [
-            "Action",
-            "Adventure",
-            "Early Access",
-            "Indie",
-            "Racing"
-        ],
-        "positiveReviews": 0,
-        "negativeReviews": 2
     },
     {
         "id": "297410",

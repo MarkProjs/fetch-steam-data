@@ -5,6 +5,8 @@ async function insertData(){
   try{
     const db = DB
     await db.connect("reviews", "totalReviews")
+    await db.collection.deleteMany()
+    console.log("cleared collection!")
     let insertedReviews = await db.collection.insertMany(reviews)
     console.log(`Inserted ${insertedReviews.insertedCount} reviews`)
   } catch(err) {
