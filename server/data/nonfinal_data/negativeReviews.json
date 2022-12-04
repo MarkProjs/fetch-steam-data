@@ -1,0 +1,248 @@
+{
+    "lowGames": [
+        {
+            "Genre": "Action",
+            "id": "730",
+            "negativeReviews": 455735
+        },
+        {
+            "Genre": "Free to Play",
+            "id": "570",
+            "negativeReviews": 2101
+        },
+        {
+            "Genre": "Strategy",
+            "id": "107410",
+            "negativeReviews": 14223
+        },
+        {
+            "Genre": "Adventure",
+            "id": "271590",
+            "negativeReviews": 188566
+        },
+        {
+            "Genre": "Indie",
+            "id": "252490",
+            "negativeReviews": 88280
+        },
+        {
+            "Genre": "RPG",
+            "id": "218620",
+            "negativeReviews": 39082
+        },
+        {
+            "Genre": "Animation & Modeling",
+            "id": "274920",
+            "negativeReviews": 1352
+        },
+        {
+            "Genre": "Video Production",
+            "id": "228180",
+            "negativeReviews": 778
+        },
+        {
+            "Genre": "Casual",
+            "id": "211820",
+            "negativeReviews": 7001
+        },
+        {
+            "Genre": "Simulation",
+            "id": "4000",
+            "negativeReviews": 24991
+        },
+        {
+            "Genre": "Racing",
+            "id": "252950",
+            "negativeReviews": 41693
+        },
+        {
+            "Genre": "Massively Multiplayer",
+            "id": "221100",
+            "negativeReviews": 73125
+        },
+        {
+            "Genre": "Sports",
+            "id": "244210",
+            "negativeReviews": 4888
+        },
+        {
+            "Genre": "Early Access",
+            "id": "295110",
+            "negativeReviews": 26553
+        },
+        {
+            "Genre": "Photo Editing",
+            "id": "233680",
+            "negativeReviews": 52
+        },
+        {
+            "Genre": "Utilities",
+            "id": "223850",
+            "negativeReviews": 684
+        },
+        {
+            "Genre": "Design & Illustration",
+            "id": "266310",
+            "negativeReviews": 313
+        },
+        {
+            "Genre": "Education",
+            "id": "234820",
+            "negativeReviews": 90
+        },
+        {
+            "Genre": "Software Training",
+            "id": "237370",
+            "negativeReviews": 108
+        },
+        {
+            "Genre": "Web Publishing",
+            "id": "220700",
+            "negativeReviews": 164
+        },
+        {
+            "Genre": "Audio Production",
+            "id": "269470",
+            "negativeReviews": 241
+        },
+        {
+            "Genre": "Accounting",
+            "id": "227320",
+            "negativeReviews": 100
+        }
+    ],
+    "ratios": [
+        {
+            "Genre": "Action",
+            "id": "210490",
+            "percentage": 100,
+            "negativeReviews": 42
+        },
+        {
+            "Genre": "Free to Play",
+            "id": "264681",
+            "percentage": 100,
+            "negativeReviews": 2
+        },
+        {
+            "Genre": "Strategy",
+            "id": "267220",
+            "percentage": 100,
+            "negativeReviews": 10
+        },
+        {
+            "Genre": "Adventure",
+            "id": "287740",
+            "percentage": 100,
+            "negativeReviews": 5
+        },
+        {
+            "Genre": "Indie",
+            "id": "32000",
+            "percentage": 100,
+            "negativeReviews": 14
+        },
+        {
+            "Genre": "RPG",
+            "id": "203340",
+            "percentage": 100,
+            "negativeReviews": 4
+        },
+        {
+            "Genre": "Animation & Modeling",
+            "id": "277720",
+            "percentage": 66.66666666666666,
+            "negativeReviews": 2
+        },
+        {
+            "Genre": "Video Production",
+            "id": "288270",
+            "percentage": 58.82352941176471,
+            "negativeReviews": 40
+        },
+        {
+            "Genre": "Casual",
+            "id": "108210",
+            "percentage": 100,
+            "negativeReviews": 2
+        },
+        {
+            "Genre": "Simulation",
+            "id": "203341",
+            "percentage": 100,
+            "negativeReviews": 4
+        },
+        {
+            "Genre": "Racing",
+            "id": "220811",
+            "percentage": 100,
+            "negativeReviews": 2
+        },
+        {
+            "Genre": "Massively Multiplayer",
+            "id": "234690",
+            "percentage": 100,
+            "negativeReviews": 1
+        },
+        {
+            "Genre": "Sports",
+            "id": "230691",
+            "percentage": 100,
+            "negativeReviews": 1
+        },
+        {
+            "Genre": "Early Access",
+            "id": "257930",
+            "percentage": 93.77777777777779,
+            "negativeReviews": 211
+        },
+        {
+            "Genre": "Photo Editing",
+            "id": "279740",
+            "percentage": 45.23809523809524,
+            "negativeReviews": 19
+        },
+        {
+            "Genre": "Utilities",
+            "id": "281102",
+            "percentage": 70,
+            "negativeReviews": 7
+        },
+        {
+            "Genre": "Design & Illustration",
+            "id": "285462",
+            "percentage": 75,
+            "negativeReviews": 3
+        },
+        {
+            "Genre": "Education",
+            "id": "243890",
+            "percentage": 54.54545454545454,
+            "negativeReviews": 12
+        },
+        {
+            "Genre": "Software Training",
+            "id": "224380",
+            "percentage": 53.03030303030303,
+            "negativeReviews": 35
+        },
+        {
+            "Genre": "Web Publishing",
+            "id": "277843",
+            "percentage": 66.66666666666666,
+            "negativeReviews": 6
+        },
+        {
+            "Genre": "Audio Production",
+            "id": "281103",
+            "percentage": 50,
+            "negativeReviews": 1
+        },
+        {
+            "Genre": "Accounting",
+            "id": "227320",
+            "percentage": 7.9113924050632916,
+            "negativeReviews": 100
+        }
+    ]
+}

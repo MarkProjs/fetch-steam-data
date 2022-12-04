@@ -1,0 +1,424 @@
+{
+    "lowGames": [
+        {
+            "Genre": "Action",
+            "id": "730",
+            "negativeReviews": 455735,
+            "name": "Counter-Strike: Global Offensive",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812",
+            "description": "Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago. CS: GO features new maps, characters, weapons, and game modes, and delivers updated versions of the classic CS content (de_dust2, etc.).",
+            "date": "21 Aug, 2012"
+        },
+        {
+            "Genre": "Free to Play",
+            "id": "570",
+            "negativeReviews": 2101,
+            "name": "Dota 2",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg?t=1666237243",
+            "description": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
+            "date": "9 Jul, 2013"
+        },
+        {
+            "Genre": "Strategy",
+            "id": "107410",
+            "negativeReviews": 14223,
+            "name": "Arma 3",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/107410/header.jpg?t=1655998601",
+            "description": "Experience true combat gameplay in a massive military sandbox. Deploying a wide variety of single- and multiplayer content, over 20 vehicles and 40 weapons, and limitless opportunities for content creation, this is the PC’s premier military game. Authentic, diverse, open - Arma 3 sends you to war.",
+            "date": "12 Sep, 2013"
+        },
+        {
+            "Genre": "Adventure",
+            "id": "271590",
+            "negativeReviews": 188566,
+            "name": "Grand Theft Auto V",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1667343890",
+            "description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
+            "date": "13 Apr, 2015"
+        },
+        {
+            "Genre": "Indie",
+            "id": "252490",
+            "negativeReviews": 88280,
+            "name": "Rust",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1669127647",
+            "description": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.",
+            "date": "8 Feb, 2018"
+        },
+        {
+            "Genre": "RPG",
+            "id": "218620",
+            "negativeReviews": 39082,
+            "name": "PAYDAY 2",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/218620/header.jpg?t=1668735446",
+            "description": "PAYDAY 2 is an action-packed, four-player co-op shooter that once again lets gamers don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf and Chains - as they descend on Washington DC for an epic crime spree.",
+            "date": "Aug 13, 2013"
+        },
+        {
+            "Genre": "Animation & Modeling",
+            "id": "274920",
+            "negativeReviews": 1352,
+            "name": "FaceRig",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/274920/header.jpg?t=1641406847",
+            "description": "FaceRig was a program that aimd to enable anyone with a webcam to digitally embody awesome characters. The output could be recorded as a movie or streamed to Skype, Twitch, Hangouts or any service that traditionally uses a webcam in real time.",
+            "date": "7 Jul, 2015"
+        },
+        {
+            "Genre": "Video Production",
+            "id": "228180",
+            "negativeReviews": 778,
+            "name": "Action! - Gameplay Recording and Streaming",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/228180/header.jpg?t=1594129556",
+            "description": "With Action! you can record and live stream your HD/4K/HDR10/8K gameplay, display game's fps, add webcams, live audio commentary, add streaming overlays such as chatbox, alert box, monitor the status of your recording and streaming, benchmark your computer and more!",
+            "date": "8 May, 2014"
+        },
+        {
+            "Genre": "Casual",
+            "id": "211820",
+            "negativeReviews": 7001,
+            "name": "Starbound",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/211820/header.jpg?t=1661178495",
+            "description": "You’ve fled your home, only to find yourself lost in space with a damaged ship. Your only option is to beam down to the planet below, repair your ship and set off to explore the universe...",
+            "date": "22 Jul, 2016"
+        },
+        {
+            "Genre": "Simulation",
+            "id": "4000",
+            "negativeReviews": 24991,
+            "name": "Garry's Mod",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/4000/header.jpg?t=1663621793",
+            "description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
+            "date": "29 Nov, 2006"
+        },
+        {
+            "Genre": "Racing",
+            "id": "252950",
+            "negativeReviews": 41693,
+            "name": "Rocket League®",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg?t=1666994460",
+            "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
+            "date": "6 Jul, 2015"
+        },
+        {
+            "Genre": "Massively Multiplayer",
+            "id": "221100",
+            "negativeReviews": 73125,
+            "name": "DayZ",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1667310902",
+            "description": "How long can you survive a post-apocalyptic world? A land overrun with an infected &quot;zombie&quot; population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.",
+            "date": "13 Dec, 2018"
+        },
+        {
+            "Genre": "Sports",
+            "id": "244210",
+            "negativeReviews": 4888,
+            "name": "Assetto Corsa",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/244210/header.jpg?t=1669152181",
+            "description": "Assetto Corsa v1.16 introduces the new &quot;Laguna Seca&quot; laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
+            "date": "19 Dec, 2014"
+        },
+        {
+            "Genre": "Early Access",
+            "id": "295110",
+            "negativeReviews": 26553,
+            "name": "Just Survive",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/295110/header.jpg?t=1540317442",
+            "description": "Just Survive is a post-apocalyptic survival game that immerses you in a world where humanity is fighting to take back control from the zombie hordes.",
+            "date": "15 Jan, 2015"
+        },
+        {
+            "Genre": "Photo Editing",
+            "id": "233680",
+            "negativeReviews": 52,
+            "name": "Black Ink",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/233680/header.jpg?t=1668683004",
+            "description": "Black Ink is a new, non-realistic GPU based painting application that, instead of imitating traditional tools, brings new inspirations to every artist.Forget about pen and paper or watercolor and discover a new, generative and truly computer based way to create.",
+            "date": "8 Feb, 2016"
+        },
+        {
+            "Genre": "Utilities",
+            "id": "223850",
+            "negativeReviews": 684,
+            "name": "3DMark",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/223850/header.jpg?t=1665597598",
+            "description": "3DMark is for gamers, overclockers and system builders who want to get more out of their hardware. With its wide range of benchmark tests, 3DMark has everything you need to test your PC's performance.",
+            "date": ""
+        },
+        {
+            "Genre": "Design & Illustration",
+            "id": "266310",
+            "negativeReviews": 313,
+            "name": "GameGuru Classic",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/266310/header.jpg?t=1662644869",
+            "description": "GameGuru Classic is a non-technical and fun game-maker. It allows you to build your own game world, using creative and enjoyable tools. Populate your game by placing down characters, weapons and other game items, then press one button to build your game, ready to play and share.",
+            "date": "19 May, 2015"
+        },
+        {
+            "Genre": "Education",
+            "id": "234820",
+            "negativeReviews": 90,
+            "name": "Driver Fusion - The Best Driver & Device Solution",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/234820/header.jpg?t=1661414560",
+            "description": "The best solution for your PC to update, backup, clean, and monitor your drivers &amp; devices. Keep your computer reliable and up to date by fixing driver updates, disconnected devices, and unused drivers. Check if your devices and drivers are working correctly and troubleshoot their problems.",
+            "date": "6 May, 2013"
+        },
+        {
+            "Genre": "Software Training",
+            "id": "237370",
+            "negativeReviews": 108,
+            "name": "PlayClaw 5 - Game Recording and Streaming",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/237370/header.jpg?t=1526399686",
+            "description": "The amazing PlayClaw video capture tool gives customers incredible power!PlayClaw has been designed to make full use of multi-core processors and hardware accelerated H.264 codecs, which ensures the outstanding quality of the output with a minimal impact on system performance.",
+            "date": "10 Sep, 2013"
+        },
+        {
+            "Genre": "Web Publishing",
+            "id": "220700",
+            "negativeReviews": 164,
+            "name": "RPG Maker VX Ace",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/220700/header.jpg?t=1664523829",
+            "description": "RPG Maker VX Ace improves on every aspect of creating your very own epic adventure. An extremely powerful editor, Ace supports multiple tilesets, offers full control over autoshadow and has a very flexible features system.",
+            "date": "10 Dec, 2012"
+        },
+        {
+            "Genre": "Audio Production",
+            "id": "269470",
+            "negativeReviews": 241,
+            "name": "MorphVOX Pro 4 - Voice Changer (Old)",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/269470/header.jpg?t=1620058094",
+            "description": "MorphVOX Pro will change your voice online and in-game. Take your voice-changing to a new level with superior voice-learning technology, background cancellation, and sound quality.",
+            "date": "13 Feb, 2014"
+        },
+        {
+            "Genre": "Accounting",
+            "id": "227320",
+            "negativeReviews": 100,
+            "name": "You Need a Budget 4",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/227320/header.jpg?t=1484672273",
+            "description": "With a cult following the world round, You Need A Budget (YNAB), helps you take total control of your money. The results are life-changing and include breaking the paycheck-to-paycheck cycle, paying down debt, and saving more money faster – not to mention a good night’s sleep.",
+            "date": ""
+        }
+    ],
+    "ratios": [
+        {
+            "Genre": "Action",
+            "id": "210490",
+            "percentage": 100,
+            "negativeReviews": 42,
+            "name": "Fray: Reloaded Edition",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/210490/header.jpg?t=1447355658",
+            "description": "Combining the strategy elements of turn-based games with the action of a shooter, this is a rare hybrid that offers an all new gameplay experience. Are you ready to enter the Fray?",
+            "date": "19 Jun, 2012"
+        },
+        {
+            "Genre": "Free to Play",
+            "id": "264681",
+            "percentage": 100,
+            "negativeReviews": 2,
+            "name": "King's Bounty: Legions | Champion of the Realm Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/264681/header.jpg?t=1657722739",
+            "description": "A balanced starter pack for King's Bounty players. Take command of a squad of powerful creatures from the Kingdom faction with a nice discount! The sight of orderly battle formations, shiny armor, swords tempered in hundreds of battles, vibrant flags and inconspicuous hoods of the Kingdom's best healers is enough to send any creature...",
+            "date": "10 Dec, 2013"
+        },
+        {
+            "Genre": "Strategy",
+            "id": "267220",
+            "percentage": 100,
+            "negativeReviews": 10,
+            "name": "Line Of Defense Tactics - Tactical Advantage",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/267220/header.jpg?t=1620315389",
+            "description": "A real-time strategy combat game based on the world of the Line Of Defense. Command a team of four Galactic Command marines in highly classified missions in space and on planets.",
+            "date": "17 Mar, 2014"
+        },
+        {
+            "Genre": "Adventure",
+            "id": "287740",
+            "percentage": 100,
+            "negativeReviews": 5,
+            "name": "The Witch's Yarn",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/287740/header.jpg?t=1447360903",
+            "description": "Delightful reading. Comic book as theater. You are the director! A fun, new way to point and click through an illustrated story. A western styled visual novel with adventure game puzzles.",
+            "date": "3 Apr, 2014"
+        },
+        {
+            "Genre": "Indie",
+            "id": "32000",
+            "percentage": 100,
+            "negativeReviews": 14,
+            "name": "Raycatcher",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/32000/header.jpg?t=1447351793",
+            "description": "Raycatcher is an innovative new game that syncs gameplay to your favorite mp3s. Load in your entire music library and watch as the game morphs itself to match. The gameplay itself is easy to pick up, yet compelling. Rotate a cluster of colorful shapes to catch matching rays of light cast onto your screen.",
+            "date": "17 Apr, 2009"
+        },
+        {
+            "Genre": "RPG",
+            "id": "203340",
+            "percentage": 100,
+            "negativeReviews": 4,
+            "name": "Jagged Alliance - Back in Action: Desert Specialist Kit DLC",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/203340/header.jpg?t=1533040218",
+            "description": "Let your hardened mercs become nearly invisible with the Desert Specialist Kit for Jagged Alliance: Back in Action. Your enemies will never know what hit them if you equip your team with these special items. The Desert Specialist Kit provides maximum camouflage for dangerous operations in the desert environments of Arulco.",
+            "date": "9 Feb, 2012"
+        },
+        {
+            "Genre": "Animation & Modeling",
+            "id": "277720",
+            "percentage": 66.66666666666666,
+            "negativeReviews": 2,
+            "name": "MorphVOX Pro 4 - Voice Expansion Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/277720/header.jpg?t=1620387866",
+            "description": "The Voice Expansion Pack for MorphVOX ProWe have added 5 of our popular voice packs to give you 36 more voices in one convenient DLC!Deep Space Voices: 6 voices that will compliment any chatting in your favorite space game.",
+            "date": "20 Feb, 2014"
+        },
+        {
+            "Genre": "Video Production",
+            "id": "288270",
+            "percentage": 58.82352941176471,
+            "negativeReviews": 40,
+            "name": "liteCam HD 5.0: Screen/Stream Capture",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/288270/header.jpg?t=1447360921",
+            "description": "Capture live video from twitch.tv right away! liteCam HD is windows recording software that can capture any streaming/non-streaming videos on your computer. Also, with liteCam HD you can create tutorials, demos, and presentation. Grab the liteCam HD and create your own videos Today!",
+            "date": "27 May, 2014"
+        },
+        {
+            "Genre": "Casual",
+            "id": "108210",
+            "percentage": 100,
+            "negativeReviews": 2,
+            "name": "Memoir '44 Online",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/108210/header.jpg?t=1660752566",
+            "description": "Days of Wonder’s best-selling World War II board game is now available as a turn-based multiplayer online game on Steam!",
+            "date": "12 Oct, 2011"
+        },
+        {
+            "Genre": "Simulation",
+            "id": "203341",
+            "percentage": 100,
+            "negativeReviews": 4,
+            "name": "Jagged Alliance - Back in Action: Jungle Specialist Kit DLC",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/203341/header.jpg?t=1533040251",
+            "description": "Let your hardened mercs become nearly invisible with the Jungle Specialist Kit for Jagged Alliance: Back in Action. Your enemies will never know what hit them if you equip your team with these special items. The Jungle Specialist Kit provides maximum camouflage for dangerous operations in the green hell of Arulco.",
+            "date": "9 Feb, 2012"
+        },
+        {
+            "Genre": "Racing",
+            "id": "220811",
+            "percentage": 100,
+            "negativeReviews": 2,
+            "name": "F1 Race Stars - India Track",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/220811/header.jpg?t=1647013272",
+            "description": "Make your move through a mountain railway pass, overtake in the overgrown ruins and power through palace gardens in this great new circuit.",
+            "date": ""
+        },
+        {
+            "Genre": "Massively Multiplayer",
+            "id": "234690",
+            "percentage": 100,
+            "negativeReviews": 1,
+            "name": "Continent of the 9th Seal: Starter Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/234690/header.jpg?t=1532446265",
+            "description": "Get a jump on the competition with this Booster Pack for Continent of the Ninth Seal!Booster Pack Includes 1 Temperian Uniform set Premium Service (7days) 1 Inventory Expansion Scroll 1 Town Travel Lv.2 5 Leona’s Potion Earth Dragon Helm Box",
+            "date": ""
+        },
+        {
+            "Genre": "Sports",
+            "id": "230691",
+            "percentage": 100,
+            "negativeReviews": 1,
+            "name": "Lords of Football: Super Training",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/230691/header.jpg?t=1447357320",
+            "description": "Now you can train your players harder than before!KEY FEATURES: New Exercises – Train your players with 16 new super training exercises. Train Harder – Super Trainings have a higher level of intensity than those in the original Lords of Football. Medieval – Train your players with medieval themed training equipment.",
+            "date": "8 Jul, 2013"
+        },
+        {
+            "Genre": "Early Access",
+            "id": "257930",
+            "percentage": 93.77777777777779,
+            "negativeReviews": 211,
+            "name": "Race To Mars",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/257930/header.jpg?t=1447358953",
+            "description": "Race To Mars is a turn-based, space company simulation game. Become the head of the newly established “New Space” company whose goal would be to establish a colony on Mars. You begin as a startup - develop cutting edge aerospace technologies and use them to achieve orbit and fly beyond Earth vicinity, blazing the trail of a space pioneer...",
+            "date": "7 Mar, 2014"
+        },
+        {
+            "Genre": "Photo Editing",
+            "id": "279740",
+            "percentage": 45.23809523809524,
+            "negativeReviews": 19,
+            "name": "3D ParticleGen Visual FX",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/279740/header.jpg?t=1667395130",
+            "description": "ParticleGen is a flexible and highperformance tool for the creation of multifaceted 3D particle effects in real-time. Thanks to numerous professional features like Interactive real-time previews and the exact setting of parameters using curve diagrams, the program is ideally suited for DTP, video compositing, post processing, software...",
+            "date": "3 Apr, 2015"
+        },
+        {
+            "Genre": "Utilities",
+            "id": "281102",
+            "percentage": 70,
+            "negativeReviews": 7,
+            "name": "Text-to-VoIP Plugin - MorphVOX Pro 4",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/281102/header.jpg?t=1620387812",
+            "description": "The Text-To-VoIP Plug-In for MorphVOX Pro allows you to speak over the Internet or soft-phone using customizable text-to-speech voices. This plug-in is helpful for people who cannot speak with their own voice or who would like a text alternative to communicating with voice.",
+            "date": "20 Oct, 2014"
+        },
+        {
+            "Genre": "Design & Illustration",
+            "id": "285462",
+            "percentage": 75,
+            "negativeReviews": 3,
+            "name": "RPG Maker VX Ace - The Simple Life Music Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/285462/header.jpg?t=1668474426",
+            "description": "Looking for music to accompany your perfect farm or quiet farming village? The Simple Life is composed with rural atmosphere in mind.Created by Elijah Mills, this music pack is perfect for creating the idyllic atmosphere of days spent on a bustling farm.",
+            "date": "25 Apr, 2014"
+        },
+        {
+            "Genre": "Education",
+            "id": "243890",
+            "percentage": 54.54545454545454,
+            "negativeReviews": 12,
+            "name": "Mavis Beacon Teaches Typing Family Edition",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/243890/header.jpg?t=1447358161",
+            "description": "Learn more than the WASD keys! Mavis will teach you solid skills to improve your game! Now available Worldwide!",
+            "date": "14 Mar, 2014"
+        },
+        {
+            "Genre": "Software Training",
+            "id": "224380",
+            "percentage": 53.03030303030303,
+            "negativeReviews": 35,
+            "name": "Virtual DJ - Broadcaster Edition",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/224380/header.jpg?t=1651463503",
+            "description": "VirtualDJ is revolutionary software which allows audio and video mixing right from a computer. VirtualDJ is simple and intuitive to use but do not be fooled — there are many advanced features to explore and customize.",
+            "date": "7 Mar, 2013"
+        },
+        {
+            "Genre": "Web Publishing",
+            "id": "277843",
+            "percentage": 66.66666666666666,
+            "negativeReviews": 6,
+            "name": "RPG Maker VX Ace - Dungeons and Volcanoes Tile Pack",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/277843/header.jpg?t=1668474018",
+            "description": "What's an adventure without some hidden places to explore?",
+            "date": "16 Sep, 2014"
+        },
+        {
+            "Genre": "Audio Production",
+            "id": "281103",
+            "percentage": 50,
+            "negativeReviews": 1,
+            "name": "Voice Splicer Plugin - MorphVOX Pro 4",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/281103/header.jpg?t=1655816981",
+            "description": "The Voice Splicer plug-in for MorphVOX Pro will allow you to morph multiple voices from a single audio file. Experiment and tweak a voice and apply it to your recording until you get just what you want.",
+            "date": "28 Mar, 2014"
+        },
+        {
+            "Genre": "Accounting",
+            "id": "227320",
+            "percentage": 7.9113924050632916,
+            "negativeReviews": 100,
+            "name": "You Need a Budget 4",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/227320/header.jpg?t=1484672273",
+            "description": "With a cult following the world round, You Need A Budget (YNAB), helps you take total control of your money. The results are life-changing and include breaking the paycheck-to-paycheck cycle, paying down debt, and saving more money faster – not to mention a good night’s sleep.",
+            "date": ""
+        }
+    ]
+}
