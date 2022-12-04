@@ -1,7 +1,8 @@
 const express = require("express")
-const jsonFetch = require("./controllers/jsonFetchReviews.js")
-const csvParse = require("./controllers/csvParse.js")
+const jsonFetchReviews = require("./util/jsonFetchReviews")
+const csvParse = require("./util/csvParse.js")
 const appIdJSON = require("./data/game_genres_modified.json")
+const jsonFetchGameDetails = require("./util/jsonFetchMostAndLeast")
 
 const app = express()
 const port = 3001
@@ -21,11 +22,11 @@ app.get("/org", (req, res) => {
 })
 
 //Gets the total positive and negative reviews of any game starting from the :number appid.
-//It loops by an arbitrary amount to not exceed the API request limit
+//It loops by an arbitrary amount of times to not exceed the API request limit.
 app.get("/api/:number", async (req, res) => {
   try{
     console.log("Starting fetch")
-    let reviews = await jsonFetch(req.params.number)
+    let reviews = await jsonFetchReviews(req.params.number)
     res.json(reviews)
     console.log("Finished fetch")
   } catch(err) {
@@ -33,6 +34,17 @@ app.get("/api/:number", async (req, res) => {
   }
 })
 
+app.get("/highest", (req, res) => {
+  let highestRatedGames = jsonFetchGameDetails.findHighestRatedGames()
+  res.json(highestRatedGames)
+})
+
+app.get("/lowest", (req, res) => {
+  let lowestRatedGames = jsonFetchGameDetails.findLowestRatedGames()
+  res.json(lowestRatedGames)
+})
+
+//Non-Utility Paths
 app.use((req, res) => {
   res.status(404).send("404 lol")
 })
