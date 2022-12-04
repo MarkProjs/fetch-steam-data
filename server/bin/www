@@ -5,7 +5,7 @@ const port = 3000;
 (async () => {
   try{
     const db = DB
-    await db.connect("reviews", "totalReviews")
+    await db.connect("reviews")
   } catch(err) {
     console.error(err)
     process.exit()

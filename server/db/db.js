@@ -24,7 +24,6 @@ class DB {
     dbInstance.db = dbInstance.client.db("reviews")
     console.log("Successfully connected to MongoDB database: reviews")
     dbInstance.collection = await dbInstance.db.collection("totalReviews")
-    console.log(`Collection: ${dbInstance.collection}`)
   }
 
   async close(){
