@@ -3,6 +3,9 @@ const jsonFetchReviews = require("./util/jsonFetchReviews")
 const csvParse = require("./util/csvParse.js")
 const unSquashedGamesJSON = require("./data/nonfinal_data/game_genres_shortened.json")
 const getGames = require("./util/getTopAndLowGames")
+const topPositiveGames = require("./data/nonfinal_data/positiveReviews.json")
+const topNegativeGames = require("./data/nonfinal_data/negativeReviews.json")
+const getDetailedGames = require("./util/jsonFetchGameDetails")
 
 const app = express()
 const port = 3001
@@ -42,6 +45,16 @@ app.get("/highest", (req, res) => {
 app.get("/lowest", (req, res) => {
   let lowestRatedGames = getGames.findLowestRatedGames()
   res.json(lowestRatedGames)
+})
+
+app.get("/details-positive", async (req, res) => {
+  let detailedGamesPositive = await getDetailedGames(topPositiveGames) 
+  res.json(detailedGamesPositive)
+})
+
+app.get("/details-negative", async (req, res) => {
+  let detailedGamesNegative = await getDetailedGames(topNegativeGames)
+  res.json(detailedGamesNegative)
 })
 
 //Non-Utility Paths

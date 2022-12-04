@@ -5,15 +5,15 @@ const cleanedGenresJSON = require("../data/nonfinal_data/cleaned_game_genres.jso
 async function jsonFetchReviews(stringNumber){
   const number = parseInt(stringNumber)
   let jsonArray = []
-  //length is 7333. Next is /7331
+  //length is 7333. Next is /7332
   //Big loop (change + 1 to + 200 eventually)
   for(i = number; i < number + 1; i++){
     console.log(i)
     //Get id from json data
     let data = cleanedGenresJSON[i]
-    //query id with the interface that gets reviews
+    //Query id with the interface that gets reviews
     const url = `https://store.steampowered.com/appreviews/${data.appid}?json=1&language=all`
-    //fetch
+    //Fetch
     try{
       const response = await fetch(url)
       if(!response.ok){
