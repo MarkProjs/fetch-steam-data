@@ -2,7 +2,7 @@ const express = require("express")
 const jsonFetchReviews = require("./util/jsonFetchReviews")
 const csvParse = require("./util/csvParse.js")
 const appIdJSON = require("./data/game_genres_modified.json")
-const jsonFetchGameDetails = require("./util/jsonFetchMostAndLeast")
+const getGames = require("./util/getTopAndLowGames")
 
 const app = express()
 const port = 3001
@@ -35,12 +35,12 @@ app.get("/api/:number", async (req, res) => {
 })
 
 app.get("/highest", (req, res) => {
-  let highestRatedGames = jsonFetchGameDetails.findHighestRatedGames()
+  let highestRatedGames = getGames.findHighestRatedGames()
   res.json(highestRatedGames)
 })
 
 app.get("/lowest", (req, res) => {
-  let lowestRatedGames = jsonFetchGameDetails.findLowestRatedGames()
+  let lowestRatedGames = getGames.findLowestRatedGames()
   res.json(lowestRatedGames)
 })
 
