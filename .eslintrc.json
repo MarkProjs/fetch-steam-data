@@ -48,7 +48,7 @@
     "no-loop-func": "warn",
     "no-multi-str": "warn",
     "no-self-compare": "warn",
-    "strict": ["warn", "global"],
+    "strict": ["global"],
     "no-lonely-if": "warn",
     ////////// Style //////////
     "array-bracket-spacing": ["warn", "never"],
