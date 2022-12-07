@@ -61,3 +61,14 @@
     * Organized json data
     * Got total positive and negative reviews for each game
     * Router started
+
+# 2022-12-07 Wednesday 14:30 pm, 3 hours, during lab time
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * We are behind schedule
+    * A 6th collection will need to be added for final data
+## work
+    * Getting db data to endpoint
+    * Graph display we will use has been decided
+    * Popup code started
