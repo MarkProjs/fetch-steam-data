@@ -22,8 +22,7 @@ router.get("/", async (req, res)=>{
   catch (err) {
     allData = {"error": err};
   }
-  res.json(allData);
-  res.sendStatus(201).end();
+  return res.json(allData);
 });
 
 //router to get the positive game details
@@ -36,8 +35,7 @@ router.get("/positiveGamesDetails", async (req, res) => {
   catch (err) {
     collections = {"error": err};
   }
-  res.json(collections);
-  res.sendStatus(201).end();
+  return res.json(collections);
 });
 
 //router to ge the negative game details
@@ -50,8 +48,7 @@ router.get("/negativeGamesDetails", async (req, res) => {
   catch (err) {
     collections = {"error": err};
   }
-  res.json(collections);
-  res.sendStatus(201).end();
+  return res.json(collections);
 });
 
 //routes to get the ratio of the positive game details
@@ -64,8 +61,7 @@ router.get("/ratioPositiveGamesDetails", async (req, res) => {
   catch (err) {
     collections = {"error": err};
   }
-  res.json(collections);
-  res.sendStatus(201).end();
+  return res.json(collections);
 });
 
 
@@ -79,8 +75,7 @@ router.get("/ratioNegativeGamesDetails", async (req, res) => {
   catch (err) {
     collections = {"error": err};
   }
-  res.json(collections);
-  res.sendStatus(201).end();
+  return res.json(collections);
 });
 
 
