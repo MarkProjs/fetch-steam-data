@@ -16,7 +16,7 @@ app.get("/initDB", async (req, res) => {
 app.use(express.static('../client/build'));
 
 app.use((req, res) => {
-  res.status(404).send("404 lol")
+  res.status(404).send("404 Error")
 })
 
 module.exports = app

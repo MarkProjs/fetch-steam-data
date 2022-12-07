@@ -65,4 +65,6 @@ router.get("/negative-details", async (req, res) => {
   let detailedGamesNegative = await getDetailedGames.jsonFetchNegativeGameDetails(topNegativeGames)
   res.json(detailedGamesNegative)
 })
+
+
 module.exports = router;
