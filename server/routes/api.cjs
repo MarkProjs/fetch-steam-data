@@ -54,7 +54,7 @@ router.get("/negativeGamesDetails", async (req, res) => {
   res.sendStatus(201).end();
 });
 
-//r
+//routes to get the ratio of the positive game details
 router.get("/ratioPositiveGamesDetails", async (req, res) => {
   db.collection = db.db.collection("ratioPositiveGamesDetails");
   let collections;
@@ -69,6 +69,7 @@ router.get("/ratioPositiveGamesDetails", async (req, res) => {
 });
 
 
+//router to get the ratio of the negative game details
 router.get("/ratioNegativeGamesDetails", async (req, res) => {
   db.collection = db.db.collection("ratioNegativeGamesDetails");
   let collections;
