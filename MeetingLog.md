@@ -61,7 +61,6 @@
     * Organized json data
     * Got total positive and negative reviews for each game
     * Router started
-<<<<<<< HEAD
 
 # 2022-12-07 Wednesday 14:30 pm, 3 hours, during lab time
     Attendees: Bastian, Mark, Antonio
@@ -73,5 +72,3 @@
     * Getting db data to endpoint
     * Graph display we will use has been decided
     * Popup code started
-=======
->>>>>>> 82208af641bb9c199199bca412b3d0a8e29be112
