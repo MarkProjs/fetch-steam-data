@@ -12,34 +12,74 @@ const db = require("../db/db");
 
 router.use(express.json());
 
+//router to get all of the review
 router.get("/", async (req, res)=>{
-  let allData = await db.readAll();
+  db.collection = db.db.collection("totalReviews");
+  let allData;
+  try {
+    allData = await db.readAll();
+  } 
+  catch (err) {
+    allData = {"error": err};
+  }
   res.json(allData);
   res.sendStatus(201).end();
 });
 
+//router to get the positive game details
 router.get("/positiveGamesDetails", async (req, res) => {
   db.collection = db.db.collection("positiveGamesDetails");
-  let collections = await db.readAll();
+  let collections;
+  try {
+    collections = await db.readAll();
+  } 
+  catch (err) {
+    collections = {"error": err};
+  }
   res.json(collections);
+  res.sendStatus(201).end();
 });
 
+//router to ge the negative game details
 router.get("/negativeGamesDetails", async (req, res) => {
   db.collection = db.db.collection("negativeGamesDetails");
-  let collections = await db.readAll();
+  let collections;
+  try {
+    collections = await db.readAll();
+  } 
+  catch (err) {
+    collections = {"error": err};
+  }
   res.json(collections);
+  res.sendStatus(201).end();
 });
 
+//r
 router.get("/ratioPositiveGamesDetails", async (req, res) => {
   db.collection = db.db.collection("ratioPositiveGamesDetails");
-  let collections = await db.readAll();
+  let collections;
+  try {
+    collections = await db.readAll();
+  } 
+  catch (err) {
+    collections = {"error": err};
+  }
   res.json(collections);
+  res.sendStatus(201).end();
 });
+
 
 router.get("/ratioNegativeGamesDetails", async (req, res) => {
   db.collection = db.db.collection("ratioNegativeGamesDetails");
-  let collections = await db.readAll();
+  let collections;
+  try {
+    collections = await db.readAll();
+  } 
+  catch (err) {
+    collections = {"error": err};
+  }
   res.json(collections);
+  res.sendStatus(201).end();
 });
 
 
