@@ -145,4 +145,20 @@ function findLowestRatedGames() {
   return lowGamesJSON
 }
 
-module.exports = {findHighestRatedGames, findLowestRatedGames}
+function getTotalReviewData(reviews){
+  let genreArray = buildGenreArray()
+  let totalReviewJSON = {}
+  genreArray.forEach(item => {
+    totalReviewJSON[item] = {positiveReviews: 0, negativeReviews: 0}
+  })
+
+  reviews.forEach(item => {
+    item.Genre.forEach(genre => {
+      totalReviewJSON[genre].positiveReviews += item.positiveReviews
+      totalReviewJSON[genre].negativeReviews += item.negativeReviews
+    })
+  })
+  return totalReviewJSON
+}
+
+module.exports = {findHighestRatedGames, findLowestRatedGames, getTotalReviewData}

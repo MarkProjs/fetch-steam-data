@@ -18,11 +18,12 @@ router.get("/", async (req, res)=>{
   let allData;
   try {
     allData = await db.readAll();
+    finishedData = getGames.getTotalReviewData(allData)
   } 
   catch (err) {
     allData = {"error": err};
   }
-  return res.json(allData);
+  return res.json(finishedData);
 });
 
 //router to get the positive game details
@@ -103,7 +104,7 @@ router.get("/organize", (req, res) => {
 
 //Gets the total positive and negative reviews of any game starting from the :number appid.
 //It loops by an arbitrary amount of times to not exceed the API request limit.
-router.get("/:number", async (req, res) => {
+router.get("/numbers/:number", async (req, res) => {
   try{
     console.log("Starting fetch")
     let reviews = await jsonFetchReviews(req.params.number)
@@ -139,7 +140,11 @@ router.get("/negative-details", async (req, res) => {
   res.json(detailedGamesNegative)
 });
 
-
+//Gets the final dataset for totalreviews and negative reviews
+router.get("/finalReviews", (req, res) => {
+  let finalReviewJSON = getGames.getTotalReviewData()
+  res.json(finalReviewJSON)
+})
 
 //Populates the DB with the total review data
 router.get("/initDB", async (req, res) => {
