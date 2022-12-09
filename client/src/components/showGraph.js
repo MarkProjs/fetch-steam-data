@@ -6,16 +6,18 @@ function ShowGraph(props){
   //Set the titles
   let newData = []
 
-  let barData = { data: [{ x: newData, y: [1, 4, 9, 16], type: 'bar' }]}
+  let barData = { data: [{ x: newData, y: [1, 4, 9, 16], type: 'bar'}]}
 
   props.data.forEach(element => {
     newData.push(element.text)
   });
 
   return (
-    <><Plot
-      data={barData.data}
-      onClick={(e) => props.getDataBack(e.points[0])} /></>
+    <>
+      <Plot
+        data={barData.data}
+        onClick={(e) => props.getDataBack(e.points[0], "positive")} />
+    </>
   );
 }
 

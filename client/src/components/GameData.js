@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
 function GameData(props){
-
+  //name, image, short_desc, date
   return(
     <div>
       <h1>title: {props.object.text}</h1>
