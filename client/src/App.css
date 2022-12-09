@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#plots {
+  max-width: 40em;
+}
+
+/* #graph2{
+  min-width: 60em;
+} */
+
+Plot {
+  width: 100%;
 }
