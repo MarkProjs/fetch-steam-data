@@ -19,7 +19,7 @@
     "allowImportExportEverywhere": true
   },
 
-  "plugins": ["react", "security"],
+  "plugins": ["react"],
 
   "rules": {
     ////////// Possible Errors //////////

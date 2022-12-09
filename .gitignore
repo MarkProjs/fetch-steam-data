@@ -16,6 +16,3 @@ node_modules/
 
 #env
 .env
-
-#.eslint
-.eslintrc.json
