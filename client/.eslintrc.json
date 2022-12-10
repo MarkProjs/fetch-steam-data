@@ -7,8 +7,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "plugin:security/recommended"
+    "plugin:react/jsx-runtime"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -19,7 +18,7 @@
     "allowImportExportEverywhere": true
   },
 
-  "plugins": ["react", "security"],
+  "plugins": ["react"],
 
   "rules": {
     ////////// Possible Errors //////////
