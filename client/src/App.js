@@ -85,16 +85,16 @@ function App() {
         ratioDetails = element
       }
     });
-    
+    //Update these values
     setGameDetails(details)
     setRatioDetails(ratioDetails)
   }
   
   return (
     <div className="App">
+      <ShowGraph data={totalReviews} ratioData={ratioDetails} getDataBack={changeData}></ShowGraph>
       <GameData details={gameDetails} ratioDetails={ratioDetails}
         isPositive={isPositiveGame}></GameData>
-      <ShowGraph data={totalReviews} ratioData={ratioDetails} getDataBack={changeData}></ShowGraph>
     </div>
   );
 }
