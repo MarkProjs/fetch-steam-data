@@ -1,5 +1,6 @@
 .App {
   display: flex;
+  gap: 100px
 }
 
 .App-logo {
@@ -39,12 +40,15 @@
 
 #plots {
   max-width: 40em;
+  margin-right: 3em;
+  margin-top: 1.5em;
 }
 
-/* #graph2{
-  min-width: 60em;
-} */
-
-Plot {
-  width: 100%;
+#gamedata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px;
 }
+
+

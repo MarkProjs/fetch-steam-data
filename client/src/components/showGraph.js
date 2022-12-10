@@ -1,4 +1,3 @@
-import React from 'react';
 import Plot from 'react-plotly.js';
 
 function ShowGraph(props){
@@ -6,39 +5,35 @@ function ShowGraph(props){
   //Set the titles
   let genres = []
 
-  let reviews = []
-
-  let barData = { data: [{ x: genres, y: reviews, type: 'bar'}]}
-
-  for(const [key] of Object.entries(props.data)){
-    genres.push(key)
-  }
+  let positiveReviews = []
+  let negativeReviews = []
+  let positiveBarData = { data: [{ x: genres, y: positiveReviews, type: 'bar'}]}
+  let negativeBarData = { data: [{ x: genres, y: negativeReviews, type: 'bar'}]}
 
   for(const [key, value] of Object.entries(props.data)){
-    if(props.isPositive){
-      reviews.push(value.positiveReviews)
-    } else {
-      reviews.push(value.negativeReviews)
-    }
+    genres.push(key)
+    positiveReviews.push(value.positiveReviews)
+    negativeReviews.push(value.negativeReviews)
   }
+
+  let globalHeight = 350
+  let globalWidth = 1100
 
   return (
     <>
-    <div id = "plots">
-      <Plot
-        data={barData.data}
-        onClick={(e) => props.getDataBack(e.points[0], props.isPositive)} 
-        layout={{title: "sus"}}
+      <div id = "plots">
+        <Plot
+          data={positiveBarData.data}
+          onClick={(e) => props.getDataBack(e.points[0], true)} 
+          layout={{title: "sus", margin: {b: 15, r: 0, l: 40, t:40}, height: globalHeight,
+            width: globalWidth}}
         />
         <Plot
-          data={[
-            {
-              y: [1, 4, 9, 16],
-              type: 'bar',
-            },
-          ]}
-          // eslint-disable-next-line max-len
-          layout={{ yaxis: { autorange: 'reversed'}, barmode: 'relative', margin: {t: 0}  }} />
+          data={negativeBarData.data}
+          onClick={(e) => props.getDataBack(e.points[0], false)}
+          layout={{ yaxis: { autorange: 'reversed'},
+            xaxis: { visible: false }, margin: {t: 0, r: 0, l: 40, b:40}, height: 350,
+            width: globalWidth}} />
       </div>
     </>
   );
