@@ -24,9 +24,22 @@ function ShowGraph(props){
 
   return (
     <>
+    <div id = "plots">
       <Plot
         data={barData.data}
-        onClick={(e) => props.getDataBack(e.points[0], props.isPositive)} />
+        onClick={(e) => props.getDataBack(e.points[0], props.isPositive)} 
+        layout={{title: "sus"}}
+        />
+        <Plot
+          data={[
+            {
+              y: [1, 4, 9, 16],
+              type: 'bar',
+            },
+          ]}
+          // eslint-disable-next-line max-len
+          layout={{ yaxis: { autorange: 'reversed'}, barmode: 'relative', margin: {t: 0}  }} />
+      </div>
     </>
   );
 }

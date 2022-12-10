@@ -18,7 +18,7 @@ function App() {
   }]
 
   let positiveDetails = [{
-    
+
   }]
 
   //Props we will send to GameData that contains the specific json info
