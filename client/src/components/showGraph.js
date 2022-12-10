@@ -4,19 +4,29 @@ import Plot from 'react-plotly.js';
 function ShowGraph(props){
 
   //Set the titles
-  let newData = []
+  let genres = []
 
-  let barData = { data: [{ x: newData, y: [1, 4, 9, 16], type: 'bar'}]}
+  let reviews = []
 
-  props.data.forEach(element => {
-    newData.push(element.text)
-  });
+  let barData = { data: [{ x: genres, y: reviews, type: 'bar'}]}
+
+  for(const [key] of Object.entries(props.data)){
+    genres.push(key)
+  }
+
+  for(const [key, value] of Object.entries(props.data)){
+    if(props.isPositive){
+      reviews.push(value.positiveReviews)
+    } else {
+      reviews.push(value.negativeReviews)
+    }
+  }
 
   return (
     <>
       <Plot
         data={barData.data}
-        onClick={(e) => props.getDataBack(e.points[0], "positive")} />
+        onClick={(e) => props.getDataBack(e.points[0], props.isPositive)} />
     </>
   );
 }
