@@ -31,3 +31,44 @@
     * reminder: a privacy policy is needed
     * Idea: Ratio of Positive and Negative reviews based on the game's tag (maybe also based on release date)
     * Finishing git setup
+
+# 2022-11-23 Wednesday 4pm, 1 hour, during the lab
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * We will figure out what is next
+## discussion/work
+    * We're trying to figure out schedules for conflicting projects
+    * We're settling on finishing Data Comm and then we can start this project
+    * The teacher told us that we should add interactivity and therefore we are going to add what she recommended:
+    * When we click on a column, the hightest-reated (positively or negatively) game will pop-up with more information on it
+
+# 2022-11-25 Friday 3pm, 10 minutes, during the lab
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * We didn't have any roles yet, so we will assign them now
+## discussion/work
+    * Bastian got assigned getting the data from the API. Mark got assigned the backend (express). Antonio got assigned the frontend (React)
+
+# 2022-11-30 Wednesday 2:40 pm, 3 hours, during lab time
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * None so far, we just need to start coding
+## work
+    * Coded csv to json controller
+    * Organized json data
+    * Got total positive and negative reviews for each game
+    * Router started
+
+# 2022-12-07 Wednesday 14:30 pm, 3 hours, during lab time
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * We are behind schedule
+    * A 6th collection will need to be added for final data
+## work
+    * Getting db data to endpoint
+    * Graph display we will use has been decided
+    * Popup code started
