@@ -38,7 +38,11 @@ router.get("/positiveGamesDetails", async (req, res) => {
   db.collection = db.db.collection("positiveGamesDetails");
   let collections;
   try {
-    collections = await db.readAll();
+    collections = cache.get("positiveGamesDetails")
+    if(!collections) {
+      collections = await db.readAll();
+      cache.put("positiveGamesDetails", collections)
+    }
   } 
   catch (err) {
     collections = {"error": err};
