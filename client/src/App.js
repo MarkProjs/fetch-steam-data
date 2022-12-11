@@ -1,5 +1,5 @@
 import './App.css';
-import ShowGraph from './components/ShowGraph';
+import ShowGraph from './components/showGraph';
 import GameData from "./components/GameData"
 import { useState, useEffect } from 'react';
 
