@@ -23,11 +23,11 @@ function ShowGraph(props){
   return (
     <div id = "graph">
       <div id = "plots">
-        <Plot
+        <Plot id = "graph1"
           data={positiveBarData.data}
           onClick={(e) => props.getDataBack(e.points[0], true)} 
           layout={{title: "Top positively and negatively reviewed Steam games sorted by Genre",
-            margin: {b: 15, r: 0, l: 40, t:40}, height: globalHeight,
+            margin: {b: 77, r: 0, l: 40, t:40}, height: globalHeight,
             width: globalWidth}}
         />
         <Plot
