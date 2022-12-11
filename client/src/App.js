@@ -14,7 +14,7 @@ function App() {
     //fetch the TotalReviews
     const fetchTotalReviews = async() => {
       try {
-        const url = "http://localhost:3001/api";
+        const url = "https://steam-statistics.onrender.com/api";
         const resp = await fetch(url);
         const json = await resp.json();
         setTotalReviews(json);
@@ -26,7 +26,7 @@ function App() {
     //fetch the positive review
     const fetchPositiveDetails = async () => {
       try {
-        const url = "http://localhost:3001/api/positiveGamesDetails";
+        const url = "https://steam-statistics.onrender.com/positiveGamesDetails";
         const response = await fetch(url);
         const content = await response.json();
         setPositiveDetials(content)
@@ -38,7 +38,7 @@ function App() {
     //fetch the negative 
     const fetchNegativeDetails = async() => {
       try {
-        const url = "http://localhost:3001/api/negativeGamesDetails";
+        const url = "https://steam-statistics.onrender.com/api/negativeGamesDetails";
         const resp = await fetch(url);
         const json = await resp.json();
         setNegativeDetails(json);
@@ -50,7 +50,7 @@ function App() {
     //fetch the positive ratio details
     const fetchPositiveRatioDetails = async() => {
       try {
-        const url = "http://localhost:3001/api/ratioPositiveGamesDetails";
+        const url = "https://steam-statistics.onrender.com/api/ratioPositiveGamesDetails";
         const resp = await fetch(url);
         const json = await resp.json();
         setPositiveRatioDetails(json);
@@ -62,7 +62,7 @@ function App() {
     //fetch the negative ratio details
     const fetchNegativeRatioDetails = async() => {
       try {
-        const url = "http://localhost:3001/api/ratioNegativeGamesDetails";
+        const url = "https://steam-statistics.onrender.com/api/ratioNegativeGamesDetails";
         const resp = await fetch(url);
         const json = await resp.json();
         setNegativeRatioDetails(json);
