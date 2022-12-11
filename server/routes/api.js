@@ -9,19 +9,26 @@ const insertInitialData = require("../util/seed")
 const express = require("express");
 const router = express.Router();
 const db = require("../db/db");
+const compression = require("compression");
+const cache = require("memory-cache");
 
 router.use(express.json());
+router.use(compression());
 
 //router to get all of the review
 router.get("/", async (req, res)=>{
   db.collection = db.db.collection("totalReviews");
-  let allData;
+  let finishedData;
   try {
-    allData = await db.readAll();
-    finishedData = getGames.getTotalReviewData(allData)
+    finishedData = cache.get("totalReviews"); 
+    if(!finishedData) {
+      let allData = await db.readAll();
+      finishedData = getGames.getTotalReviewData(allData)
+      cache.put("totalReviews", finishedData)
+    }
   } 
   catch (err) {
-    allData = {"error": err};
+    finishedData = {"error": err};
   }
   return res.json(finishedData);
 });
