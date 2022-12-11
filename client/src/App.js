@@ -23,6 +23,18 @@ function App() {
       }
     }
 
+    const fetchPositiveReviews = async () => {
+      try {
+        const url = "http://localhost:3001/api/positiveGamesDetails";
+        const response = await fetch(url);
+        const content = await response.json();
+        setPositiveDetials(content)
+      }
+      catch(err) {
+        console.error("Fetch Positive Details error" + err);
+      }
+    }
+
     const fetchNegativeDetails = async() => {
       try {
         const url = "http://localhost:3001/api/negativeGamesDetails";
@@ -36,6 +48,7 @@ function App() {
 
     fetchTotalReviews();
     fetchNegativeDetails();
+    fetchPositiveReviews();
   }, []);
   // let totalReviews = {Action: {positiveReviews: 300, negativeReviews: 42}}
   //Hold our detail data
