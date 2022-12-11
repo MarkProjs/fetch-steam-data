@@ -128,6 +128,7 @@ router.get("/organize", (req, res) => {
   let cleanJSON = cache.get("organize")
   if (!cleanJSON) {
     cleanJSON = csvParse.organizeJSONArray(unSquashedGamesJSON) 
+    cache.put("organize", cleanJSON)
   }
   res.json(cleanJSON)
 });
@@ -136,13 +137,17 @@ router.get("/organize", (req, res) => {
 //It loops by an arbitrary amount of times to not exceed the API request limit.
 router.get("/numbers/:number", async (req, res) => {
   try{
-    console.log("Starting fetch")
-    let reviews = await jsonFetchReviews(req.params.number)
-    res.json(reviews)
-    console.log("Finished fetch")
+    let reviews = cache.get("numberNumber");
+    if (!reviews) {
+      console.log("Starting fetch")
+      reviews = await jsonFetchReviews(req.params.number);
+      console.log("Finished fetch")
+      cache.put("numberNumber", reviews);
+    }
   } catch(err) {
-    console.error(err)
+    reviews = {"error": err};
   }
+  res.json(reviews)
 });
 
 //Gets highest rated games and games with highest ratio of positive reviews/negative reviews
@@ -160,13 +165,21 @@ router.get("/negative", (req, res) => {
 
 //Gets details of highest rated games
 router.get("/positive-details", async (req, res) => {
-  let detailedGamesPositive = await getDetailedGames.jsonFetchPositiveGameDetails(topPositiveGames) 
+  let detailedGamesPositive = cache.get("positive-details");
+  if(!detailedGamesPositive) {
+    detailedGamesPositive = await getDetailedGames.jsonFetchPositiveGameDetails(topPositiveGames);
+    cache.put("positive-details", detailedGamesPositive);
+  }
   res.json(detailedGamesPositive)
 });
 
 //Gets details of lowest rated games
 router.get("/negative-details", async (req, res) => {
-  let detailedGamesNegative = await getDetailedGames.jsonFetchNegativeGameDetails(topNegativeGames)
+  let detailedGamesNegative = cache.get("negative-details");
+  if (!detailedGamesNegative) {
+    detailedGamesNegative = await getDetailedGames.jsonFetchNegativeGameDetails(topNegativeGames);
+    cache.put("negative-details", detailedGamesNegative)
+  }
   res.json(detailedGamesNegative)
 });
 
