@@ -72,3 +72,15 @@
     * Getting db data to endpoint
     * Graph display we will use has been decided
     * Popup code started
+
+# 2022-12-09 Friday 1pm, 4 hours, during lab time
+    Attendees: Bastian, Mark, Antonio
+    Minute taker: Bastian
+## problems
+    * Our website isn't ready to render
+    * Mark had technical issues trying to download the client side
+## work
+    * Bastian worked on the Popup feature
+    * Antonio worked on the bar chart
+    * Mark did supertests for the routes to the db 
+    
