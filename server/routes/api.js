@@ -72,7 +72,11 @@ router.get("/ratioPositiveGamesDetails", async (req, res) => {
   db.collection = db.db.collection("ratioPositiveGamesDetails");
   let collections;
   try {
-    collections = await db.readAll();
+    collections = cache.get("ratioPositiveGamesDetails");
+    if (!collections) {
+      collections = await db.readAll();
+      cache.put("ratioPositiveGamesDetails", collections)
+    }
   } 
   catch (err) {
     collections = {"error": err};
@@ -86,7 +90,10 @@ router.get("/ratioNegativeGamesDetails", async (req, res) => {
   db.collection = db.db.collection("ratioNegativeGamesDetails");
   let collections;
   try {
-    collections = await db.readAll();
+    collections = cache.get("ratioNegativeGamesDetails")
+    if (!collections) {
+      collections = await db.readAll();
+    }
   } 
   catch (err) {
     collections = {"error": err};
