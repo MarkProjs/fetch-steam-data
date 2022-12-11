@@ -19,7 +19,7 @@ function App() {
         const json = await resp.json();
         setTotalReviews(json);
       } catch(err) {
-        console.log("Fetch Total Review error", err)
+        console.error("Fetch Total Review error", err)
       }
     }
 
