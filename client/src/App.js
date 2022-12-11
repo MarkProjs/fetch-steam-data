@@ -122,6 +122,7 @@ function App() {
   
   return (
     <div className="App">
+      <h1 id = "title">Steam Statistics</h1>
       <ShowGraph data={totalReviews} ratioData={ratioDetails} getDataBack={changeData}></ShowGraph>
       <GameData details={gameDetails} ratioDetails={ratioDetails}
         isPositive={isPositiveGame}></GameData>

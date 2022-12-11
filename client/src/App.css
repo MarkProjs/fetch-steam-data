@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  background-image:url("../public/steam_background.jpg");
+  background-image: url("../public/steam_background.jpg");
 }
 
 #graph {
@@ -24,6 +24,12 @@
 
 .specificdata {
   width: 40%;
+  background-color: slategray;
+}
+
+#title{
+  align-self: center;
+  color: white;
 }
 
 
