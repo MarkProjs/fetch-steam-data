@@ -115,7 +115,11 @@ router.get("/ratioNegativeGamesDetails", async (req, res) => {
 
 //get the csv file data into a json Object
 router.get("/csv", async (req, res) => {
-  const jsonData = await csvParse.csvParse()
+  let jsonData = cache.get("csv");
+  if (!jsonData) {
+    jsonData = await csvParse.csvParse();
+    cache.put("csv", jsonData)
+  }
   res.json(jsonData)
 });
 
