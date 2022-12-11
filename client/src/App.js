@@ -26,7 +26,7 @@ function App() {
     //fetch the positive review
     const fetchPositiveDetails = async () => {
       try {
-        const url = "https://steam-statistics.onrender.com/positiveGamesDetails";
+        const url = "https://steam-statistics.onrender.com/api/positiveGamesDetails";
         const response = await fetch(url);
         const content = await response.json();
         setPositiveDetials(content)
