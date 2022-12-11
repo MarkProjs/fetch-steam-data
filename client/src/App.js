@@ -14,16 +14,10 @@ function App() {
     //fetch the TotalReviews
     const fetchTotalReviews = async() => {
       try {
-        fetch("http://localhost:3001/api").
-          then( resp => {
-            if(resp.ok) {
-              return resp.json();
-            }
-            throw resp;
-          }).
-          then(data => {
-            setTotalReviews(data);
-          });
+        const url = "http://localhost:3001/api";
+        const resp = await fetch(url);
+        const json = await resp.json();
+        setTotalReviews(json);
       } catch(err) {
         console.log("Fetch Total Review error", err)
       }
