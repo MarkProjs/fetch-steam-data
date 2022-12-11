@@ -125,7 +125,10 @@ router.get("/csv", async (req, res) => {
 
 //Transform the unorganized json to clean data
 router.get("/organize", (req, res) => {
-  const cleanJSON = csvParse.organizeJSONArray(unSquashedGamesJSON) 
+  let cleanJSON = cache.get("organize")
+  if (!cleanJSON) {
+    cleanJSON = csvParse.organizeJSONArray(unSquashedGamesJSON) 
+  }
   res.json(cleanJSON)
 });
 
