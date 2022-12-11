@@ -1,6 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
+  background-image:url("../public/steam_background.jpg");
 }
 
 #graph {
