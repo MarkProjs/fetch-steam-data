@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: server.Dockerfile
+    ports:
+      - 3001:3001
+
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      - DB_URI=mongodb+srv://azir_enjoyer:HDZe6Lx8fsJzkzdL@cluster0.ycsgxv5.mongodb.net/reviews
+
+  client:
+    build:
+      context: ./client
+      dockerfile: client.Dockerfile
+    ports:
+      - 3000:3000
